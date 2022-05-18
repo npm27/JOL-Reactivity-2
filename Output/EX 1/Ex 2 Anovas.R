@@ -1,0 +1,598 @@
+####Set up####
+source("Ex 2 Data Cleaning.R")
+
+####Get n's####
+##1 = Mixed
+##2 = Pure U
+##3 = Pure F
+
+#Frequency
+length(unique(F1$id)) #34 #Mixed
+length(unique(F2$id)) #37 #Pure U
+length(unique(F3$id)) #31 #Pure F
+
+#JOL
+length(unique(J1$id)) #36 #Mixed
+length(unique(J2$id)) #35 #Pure U
+length(unique(J3$id)) #31 #Pure F
+
+#Study
+length(unique(R1$id)) #35 #Mixed
+length(unique(R2$id)) #34 #Pure U
+length(unique(R3$id)) #34 #Pure F
+
+#Get prolific vs sona n's
+table(F1$Platform) /80
+table(J1$Platform) /80
+table(R1$Platform) /80 #prolific:18  Sona:87
+
+table(F3$Platform) /80
+table(J3$Platform) /80
+table(R3$Platform) /80 #prolific:21  Sona:71
+
+table(F2$Platform) /80
+table(J2$Platform) /80
+table(R2$Platform) /80 #prolific:34  Sona:72
+
+##Write pure U to .csv for use in Ex 3 AND Ex 4
+#write.csv(J2, file = "JOL_PURE_U.csv", row.names = F)
+#write.csv(F2, file = "FREQ_PURE_U.csv", row.names = F)
+#write.csv(R2, file = "Study_PURE_U.csv", row.names = F)
+
+####Arrange data for Models####
+##Combine on Encoding strategy
+FREQ2 = rbind(F1, F2, F3)
+JOL2 = rbind(J1, J2, J3)
+Study2 = rbind(R1, R2, R3)
+
+####Make ANOVA DATASETS####
+Final = rbind(FREQ2[ , -3], JOL2[ , -3], Study2) ##This will be Reactivity data
+
+#Now get final n's
+length(unique(Final$id))
+
+####Run the ANOVA####
+#model1 = ezANOVA(Final,
+ #                wid = id,
+    #             between = .(Encoding, List_Type),
+        #         dv = Scored,
+            #     type = 3,
+                # detailed = T)
+#model1
+
+#tapply(Final$Scored, list(Final$Encoding, Final$List_Type), mean)
+
+##Second Anova just on the mixed group people
+mixed = subset(Final,
+               Final$List_Type == "Mixed")
+
+#model2 = ezANOVA(mixed,
+ #                wid = id,
+  #               within = Direction,
+   #             between = Encoding,
+    #             dv = Scored,
+     #            type = 3,
+      #           detailed = T)
+#model2
+
+#tapply(mixed$Scored, list(mixed$Encoding, mixed$Direction), mean)
+
+##Try adding an extra coding to run as one model
+
+Mixedf = subset(mixed,
+                mixed$Direction == "F")
+Mixedu = subset(mixed,
+                mixed$Direction == "U")
+
+Mixedf$List_Type2 = rep("Mixed_F")
+Mixedu$List_Type2 = rep("Mixed_U")
+
+Pure_U = subset(Final,
+                Final$List_Type == "Pure U")
+Pure_F = subset(Final,
+                Final$List_Type == "Pure F")
+
+Pure_U$List_Type2 = rep("Pure U")
+Pure_F$List_Type2 = rep("Pure F")
+
+##Make pure data
+pure = rbind(Pure_F, Pure_U)
+
+Final2 = rbind(Mixedf, Mixedu, Pure_U, Pure_F)
+
+#model3 = ezANOVA(Final2,
+ #                wid = id,
+  #               between = .(Encoding, List_Type2),
+   #              dv = Scored,
+    #             type = 3,
+     #            detailed = T)
+#model3
+
+#tapply(Final2$Scored, list(Final2$Encoding, Final2$List_Type2), mean)
+
+#model4 = ezANOVA(Final2,
+     #            wid = id,
+    #             between = .(Encoding, List_Type),
+   #              dv = Scored,
+  #               type = 3,
+ #                detailed = T)
+#model4
+
+####ANOVAs -- Use these####
+
+##Mixed lists
+model5 = ezANOVA(mixed,
+                 wid = id,
+                 between = Encoding,
+                 within = Direction,
+                 dv = Scored,
+                 return_aov = T,
+                 type = 3,
+                 detailed = T)
+model5
+
+model5$ANOVA$MSE = model5$ANOVA$SSd/model5$ANOVA$DFd
+model5$ANOVA$MSE
+
+aovEffectSize(model5, effectSize = "pes")
+
+length(unique(mixed$id))
+
+##Pure lists
+model6 = ezANOVA(pure,
+                 wid = id,
+                 between = .(Encoding, Direction),
+                 dv = Scored,
+                 return_aov = T,
+                 type = 3,
+                 detailed = T)
+model6
+
+length(unique(pure$id))
+
+model6$ANOVA$MSE = model6$ANOVA$SSd/model6$ANOVA$DFd
+model6$ANOVA$MSE
+
+aovEffectSize(model6, effectSize = "pes")
+
+##descriptives
+tapply(mixed$Scored, list(mixed$Encoding, mixed$Direction), mean)
+tapply(pure$Scored, list(pure$Encoding, pure$Direction), mean)
+
+####Post-hocs####
+##Let's do the mixed lists first
+mixed = mixed[ , c(1, 2, 3, 4, 6, 5)]
+
+#main effect of direction
+tapply(mixed$Scored, mixed$Direction, mean) #This will be sig based on ANOVA
+
+#Don't need to run t-test here because only two comparisons
+
+#main effect of encoding
+tapply(mixed$Scored, mixed$Encoding, mean)
+
+mixed.encoding = cast(mixed, id ~ Encoding, mean)
+
+##JOL vs FREQ
+temp = t.test(mixed.encoding$Frequency, mixed.encoding$JOL, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #Non-sig
+
+##FREQ VS READ
+temp = t.test(mixed.encoding$Frequency, mixed.encoding$READ, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #Sig
+
+#JOL vs READ
+temp = t.test(mixed.encoding$JOL, mixed.encoding$READ, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #non-sig
+
+##interaction
+tapply(mixed$Scored, list(mixed$Encoding, mixed$Direction), mean)
+
+#setup
+mixed.jol = subset(mixed, mixed$Encoding == "JOL")
+mixed.freq = subset(mixed, mixed$Encoding == "Frequency")
+mixed.read = subset(mixed, mixed$Encoding == "READ")
+
+mixed.jol2 = cast(mixed.jol, id ~ Direction, mean)
+mixed.freq2 = cast(mixed.freq, id ~ Direction, mean)
+mixed.read2 = cast(mixed.read, id ~ Direction, mean)
+
+##get sds for cohen's d
+sd(mixed.freq2$F)
+sd(mixed.freq2$U)
+
+sd(mixed.jol2$F)
+sd(mixed.jol2$U)
+
+sd(mixed.read2$F)
+sd(mixed.read2$U)
+
+#get CIs
+#JOLs
+x = apply(mixed.jol2, 2, sd)
+(x / (sqrt(length(unique(mixed.jol2$id))))) * 1.96
+
+#FREQ
+x = apply(mixed.freq2, 2, sd)
+(x / (sqrt(length(unique(mixed.freq2$id))))) * 1.96
+
+#NO-JOL
+x = apply(mixed.read2, 2, sd)
+(x / (sqrt(length(unique(mixed.read2$id))))) * 1.96
+
+#run the t-tests
+#Forward pairs
+#JOL vs FREQ
+temp = t.test(mixed.jol2$F, mixed.freq2$F, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #Non-sig
+
+##JOL vs READ
+temp = t.test(mixed.jol2$F, mixed.read2$F, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #significant!
+
+##FREQ vs READ
+temp = t.test(mixed.freq2$F, mixed.read2$F, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #significant!
+
+##For forward pairs, recall is significantly higher when making JOLs/FREQs relative to read
+#Recall does not differ between JOLs and FREQs
+
+##pbic
+pbic1 = mixed.jol2[ , c(1,2)]
+pbic1$task = rep("jol")
+
+pbic2 = mixed.freq2[ , c(1,2)]
+pbic2$task = rep("freq")
+
+pbic3 = rbind(pbic1, pbic2)
+
+ezANOVA(pbic3,
+        dv = F,
+        between = task,
+        wid = id,
+        type = 3,
+        detailed = T)
+
+#unrelated PAIRS
+#JOL VS FREQ
+temp = t.test(mixed.jol2$U, mixed.freq2$U, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #Non-sig (.06)
+
+#JOL VS READ
+temp = t.test(mixed.jol2$U, mixed.read2$U, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #non-sig
+
+##FREQ VS READ
+temp = t.test(mixed.freq2$U, mixed.read2$U, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #Non-sig
+
+##pbic
+pbic1 = mixed.jol2[ , c(1,3)]
+pbic1$task = rep("jol")
+
+pbic2 = mixed.freq2[ , c(1,3)]
+pbic2$task = rep("freq")
+
+pbic3 = rbind(pbic1, pbic2)
+
+ezANOVA(pbic3,
+        dv = U,
+        between = task,
+        wid = id,
+        type = 3,
+        detailed = T)
+
+pbic4 = mixed.read2[ , c(1,3)]
+pbic4$task = rep("read")
+
+pbic5 = rbind(pbic1, pbic4)
+
+ezANOVA(pbic5,
+        dv = U,
+        between = task,
+        wid = id,
+        type = 3,
+        detailed = T)
+
+##For mixed lists, Recall of unrelated pairs doesn't differ as a function of encoding group
+
+####Now for the pure lists####
+pure = pure[ , c(1, 2, 3, 4, 6, 5)]
+
+#main effect of direction
+tapply(pure$Scored, pure$Direction, mean) #This will be sig based on ANOVA
+
+#Don't need to run t-test here because only two comparisons
+
+#main effect of encoding
+tapply(pure$Scored, pure$Encoding, mean)
+
+pure.encoding = cast(pure, id ~ Encoding, mean)
+
+##FREQ VS JOL
+temp = t.test(pure.encoding$Frequency, pure.encoding$JOL, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #Non-Sig
+
+##FREQ VS READ
+temp = t.test(pure.encoding$Frequency, pure.encoding$READ, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 
+
+##JOL VS READ
+temp = t.test(pure.encoding$JOL, pure.encoding$READ, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #Non-sig
+
+##get pbic
+#read and jol
+pbic1 = pure.encoding[ , c(1, 4)]
+pbic1$encoding = "read"
+colnames(pbic1)[2] = "Score"
+pbic1 = na.omit(pbic1)
+
+pbic2 = pure.encoding[ , c(1, 3)]
+pbic2$encoding = "jol"
+colnames(pbic2)[2] = "Score"
+pbic2 = na.omit(pbic2)
+
+pbic3 = rbind(pbic1, pbic2)
+
+ezANOVA(pbic3,
+        dv = Score,
+        between = encoding,
+        wid = id,
+        type = 3,
+        detailed = T)
+
+#JOL and read
+pbic1 = pure.encoding[ , c(1, 3)]
+pbic1$encoding = "JOL"
+colnames(pbic1)[2] = "Score"
+pbic1 = na.omit(pbic1)
+
+pbic2 = pure.encoding[ , c(1, 4)]
+pbic2$encoding = "Read"
+colnames(pbic2)[2] = "Score"
+pbic2 = na.omit(pbic2)
+
+pbic3 = rbind(pbic1, pbic2)
+
+ezANOVA(pbic3,
+        dv = Score,
+        between = encoding,
+        wid = id,
+        type = 3,
+        detailed = T)
+
+##interaction
+tapply(pure$Scored, list(pure$Encoding, pure$Direction), mean)
+
+#setup
+pure.jol = subset(pure, pure$Encoding == "JOL")
+pure.freq = subset(pure, pure$Encoding == "Frequency")
+pure.read = subset(pure, pure$Encoding == "READ")
+
+pure.jol2 = cast(pure.jol, id ~ Direction, mean)
+pure.freq2 = cast(pure.freq, id ~ Direction, mean)
+pure.read2 = cast(pure.read, id ~ Direction, mean)
+
+#get CIs
+#JOLs
+x = apply(pure.jol2, 2, sd, na.rm = T)
+(x / (sqrt(length(unique(pure.jol2$id))))) * 1.96
+
+#FREQ
+x = apply(pure.freq2, 2, sd, na.rm = T)
+(x / (sqrt(length(unique(pure.freq2$id))))) * 1.96
+
+#NO-JOL
+x = apply(pure.read2, 2, sd, na.rm = T)
+(x / (sqrt(length(unique(pure.read2$id))))) * 1.96
+
+#get sds for cohens d
+sd(pure.jol2$F, na.rm = T)
+sd(pure.jol2$U, na.rm = T)
+
+sd(pure.freq2$F, na.rm = T)
+sd(pure.freq2$U, na.rm = T)
+
+sd(pure.read2$F, na.rm = T)
+sd(pure.read2$U, na.rm = T)
+
+#run the t-tests
+#Forward pairs
+#jol vs freq
+temp = t.test(pure.jol2$F, pure.freq2$F, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #Non-sig
+
+#jol vs read
+temp = t.test(pure.jol2$F, pure.read2$F, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #significant!
+
+#freq vs read
+temp = t.test(pure.freq2$F, pure.read2$F, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #significant!
+
+##For forward pairs, Recall is significantly higher when participants make JOLs or Freq judgments relative to silent reading
+
+#get pbic
+#related
+pbic1 = pure.freq2[ c(1, 2)]
+pbic1$encoding = rep("freq")
+pbic1 = na.omit(pbic1)
+
+pbic2 = pure.jol2[ c(1, 2)]
+pbic2$encoding = rep("jol")
+pbic2 = na.omit(pbic2)
+
+pbic3 = rbind(pbic1, pbic2)
+
+ezANOVA(pbic3,
+        dv = F,
+        between = encoding,
+        wid = id,
+        type = 3,
+        detailed = T)
+
+#unrelated
+#JOL vs FREQ
+temp = t.test(pure.jol2$U, pure.freq2$U, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #marginal
+
+#JOL vs READ
+temp = t.test(pure.jol2$U, pure.read2$U, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #non-sig
+
+#freq vs read
+temp = t.test(pure.freq2$U, pure.read2$U, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp
+round(temp$p.value, 3)
+temp$statistic
+(temp$conf.int[2] - temp$conf.int[1]) / 3.92 #Non-sig
+
+##PBIC UNRELATED
+pbic1 = pure.freq2[ c(1, 3)]
+pbic1$encoding = rep("freq")
+pbic1 = na.omit(pbic1)
+
+pbic2 = pure.jol2[ c(1, 3)]
+pbic2$encoding = rep("jol")
+pbic2 = na.omit(pbic2)
+
+pbic3 = rbind(pbic1, pbic2)
+
+ezANOVA(pbic3,
+        dv = U,
+        between = encoding,
+        wid = id,
+        type = 3,
+        detailed = T)
+
+pbic4 = pure.read2[ c(1, 3)]
+pbic4$encoding = rep("read")
+pbic4 = na.omit(pbic4)
+
+pbic5 = rbind(pbic1, pbic4)
+
+ezANOVA(pbic5,
+        dv = U,
+        between = encoding,
+        wid = id,
+        type = 3,
+        detailed = T)
+
+
+##This effect goes away for unrelated pairs
+
+##Notes: This pattern mimics ex 1 (ex 3 of Strategic Relational Encoding Paper)
+#Making judgments at encoding enhances recall of related pairs but doesn't affect unrelated
+##List type doesn't seem to matter, providing further evidence that changing goals isn't driving reactivity
+
+####Any differences based on recruiting platform?####
+#Start w/ Mixed
+model7 = ezANOVA(mixed,
+                 wid = id,
+                 between = .(Encoding, Platform),
+                 within = Direction,
+                 dv = Scored,
+                 return_aov = T,
+                 type = 3,
+                 detailed = T)
+model7
+
+model7$ANOVA$MSE = model7$ANOVA$SSd/model7$ANOVA$DFd
+model7$ANOVA$MSE
+
+aovEffectSize(model7, effectSize = "pes")
+
+#No effect of platform, and platform does not interact w/ anything
+
+##Now for pure
+model8 = ezANOVA(pure,
+                 wid = id,
+                 between = .(Encoding, Direction, Platform),
+                 dv = Scored,
+                 return_aov = T,
+                 type = 3,
+                 detailed = T)
+model8
+
+model8$ANOVA$MSE = model8$ANOVA$SSd/model8$ANOVA$DFd
+model8$ANOVA$MSE
+
+aovEffectSize(model8, effectSize = "pes")
+
+#Again, no effect of recruitment platform
+
+####RTs####
+model7 = ezANOVA(mixed,
+                 wid = id,
+                 between = Encoding,
+                 within = Direction,
+                 dv = Response.RT,
+                 return_aov = T,
+                 type = 3,
+                 detailed = T)
+model7
+
+model8 = ezANOVA(pure,
+                 wid = id,
+                 between = .(Encoding, Direction),
+                 dv = Response.RT,
+                 return_aov = T,
+                 type = 3,
+                 detailed = T)
+model8
+
+#main effect of direction, no effect of encoding group
+tapply(mixed$Response.RT, list(mixed$Direction, mixed$Encoding), mean, na.rm = T)
+tapply(pure$Response.RT, list(pure$Direction, pure$Encoding), mean, na.rm = T)
