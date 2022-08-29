@@ -97,6 +97,7 @@ FREQ$Frequency[FREQ$Frequency == "98Z"] = NA
 FREQ$Frequency[FREQ$Frequency == "8p"] = NA
 FREQ$Frequency[FREQ$Frequency == "1t"] = NA
 FREQ$Frequency[FREQ$Frequency == "5?"] = NA
+#FREQ$Frequency[FREQ$Frequency == "5<ef>"] = NA
 
 FREQ$Frequency = as.numeric(FREQ$Frequency)
 
