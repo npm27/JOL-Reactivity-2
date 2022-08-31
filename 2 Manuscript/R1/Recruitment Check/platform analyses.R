@@ -58,6 +58,7 @@ ezANOVA(pure,
         detailed = T)
 
 ##No effect or interactions w/ platform
+tapply(pure$Scored, pure$Platform, mean, na.rm = T)
 
 ####Experiment 3 -- S vs U####
 ##load the ex3 data
@@ -76,6 +77,8 @@ ezANOVA(mixed,
 
 #nope!
 
+tapply(mixed$Scored, mixed$Platform, mean, na.rm = T)
+
 ##Pure lists
 ezANOVA(pure,
         dv = Scored,
@@ -85,6 +88,7 @@ ezANOVA(pure,
         detailed = T)
 
 #Platform by encoding interaction. Everything else ns
+tapply(pure$Scored, list(pure$Platform, pure$Encoding), mean, na.rm = T)
 tapply(pure$Scored, list(pure$Platform, pure$Encoding), mean, na.rm = T)
 
 #JOL prolific participants did worse for some reason
