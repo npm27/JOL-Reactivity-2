@@ -38,7 +38,9 @@ model = ezANOVA(all.r,
 model$ANOVA$MSE = model$ANOVA$SSd/model$ANOVA$DFd
 model$ANOVA$MSE
 
-model
+model #F = 17; interaction < 1, p = .48
+
+psychReport::aovEffectSize(model, effectSize = "pes") #.15
 
 #sig main effect of encoding group
 tapply(all.r$Scored, all.r$Encoding, mean)
@@ -73,7 +75,7 @@ ezANOVA(pure.r,
 mixed = read.csv("EX2/mixed.csv")
 pure = read.csv("Ex2/pure.csv")
 
-##okay, ANOVA looking only the related pairs... I'm convinced this will blow up
+##okay, ANOVA looking only the related pairs...
 mixed.r = subset(mixed,
                  mixed$Direction == "B")
 pure.r = subset(pure,
@@ -98,7 +100,9 @@ model = ezANOVA(all.r,
 model$ANOVA$MSE = model$ANOVA$SSd/model$ANOVA$DFd
 model$ANOVA$MSE
 
-model #looks like the same pattern as Ex 1
+model #looks like the same pattern as Ex 1 #F = 9.36; int < 1, p = .90
+
+psychReport::aovEffectSize(model, effectSize = "pes") #.07
 
 #sig main effect of encoding group
 tapply(all.r$Scored, all.r$Encoding, mean)
@@ -122,12 +126,14 @@ temp #sig! p < .001
 #Yep, the same pattern w/ backward pairs
 
 ##Run the one-way ANOVA
-ezANOVA(pure.r,
+model = ezANOVA(pure.r,
         dv = Scored,
         wid = id,
         between = Encoding,
         type = 3,
         detailed = T) #Comes out Sig, again (p = .02)
+
+psychReport::aovEffectSize(model, effectSize = "pes")
 
 ####Experiment 3####
 mixed = read.csv("EX3/mixed.csv")
@@ -158,7 +164,7 @@ model = ezANOVA(all.r,
 model$ANOVA$MSE = model$ANOVA$SSd/model$ANOVA$DFd
 model$ANOVA$MSE
 
-model #looks like the same pattern as Ex 1
+model #looks like the same pattern as Ex 1; int < 1, p = .54
 
 #sig main effect of encoding group
 tapply(all.r$Scored, all.r$Encoding, mean)
