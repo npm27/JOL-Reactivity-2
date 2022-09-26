@@ -436,7 +436,7 @@ sd(pure.read2$U, na.rm = T)
 #run the t-tests
 #Forward pairs
 #jol vs freq
-temp = t.test(pure.jol2$F, pure.freq2$F, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp = t.test(pure.FRE2$F, pure.freq2$F, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
 temp
 round(temp$p.value, 3)
 temp$statistic
