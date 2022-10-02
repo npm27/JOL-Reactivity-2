@@ -207,9 +207,14 @@ pbic1$task = rep("jol")
 pbic2 = mixed.read2[ , c(1, 3)]
 pbic2$task = rep("read")
 
-pbic3 = rbind(pbic1, pbic2)
+pbic4 = mixed.freq2[ , c(1, 3)]
+pbic4$task = rep("freq")
 
-ezANOVA(pbic3,
+pbic3 = rbind(pbic1, pbic2)
+pbic5 = rbind(pbic1, pbic4)
+pbic6 = rbind(pbic2, pbic4)
+
+ezANOVA(pbic6,
         dv = U,
         wid = id,
         between = task,

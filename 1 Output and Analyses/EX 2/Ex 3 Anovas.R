@@ -104,7 +104,7 @@ aovEffectSize(model6, effectSize = "pes")
 
 ####Post-hocs####
 ##Let's do the mixed lists first
-mixed = mixed[ , c(1, 2, 3, 5, 6, 4)]
+mixed = mixed[ , c(1, 2, 3, 4, 6, 5)]
 
 #main effect of direction
 tapply(mixed$Scored, mixed$Direction, mean) #This will be sig based on ANOVA
@@ -179,16 +179,21 @@ temp$statistic
 (temp$conf.int[2] - temp$conf.int[1]) / 3.92 #Non-sig, p =.666 #spooky
 
 ##get the pbic
-pbic1 = mixed.jol2[ , c(1, 2)]
+pbic1 = mixed.jol2[ , c(1, 3)]
 pbic1$task = rep("jol")
 
-pbic2 = mixed.freq2[ c(1, 2)]
+pbic2 = mixed.freq2[ c(1, 3)]
 pbic2$task = rep("freq")
 
-pbic3 = rbind(pbic1, pbic2)
+pbic4 = mixed.read2[ c(1, 3)]
+pbic4$task = rep("read")
 
-ezANOVA(pbic3,
-        dv = B,
+pbic3 = rbind(pbic1, pbic2)
+pbic5 = rbind(pbic1, pbic4)
+pbic6 = rbind(pbic2, pbic4)
+
+ezANOVA(pbic6,
+        dv = U,
         wid = id,
         between = task,
         detailed = T)
@@ -250,7 +255,7 @@ temp$statistic
 ##For mixed lists, Recall of unrelated pairs doesn't differ as a function of encoding group
 
 ####Now for the pure lists####
-pure = pure[ , c(1, 2, 3, 5, 6, 7, 4)]
+pure = pure[ , c(1, 2, 3, 4, 6, 7, 5)]
 
 #main effect of direction
 tapply(pure$Scored, pure$Direction, mean) #This will be sig based on ANOVA

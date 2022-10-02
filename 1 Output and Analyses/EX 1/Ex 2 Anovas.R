@@ -321,6 +321,15 @@ ezANOVA(pbic5,
         type = 3,
         detailed = T)
 
+pbic6 = rbind(pbic2, pbic4)
+
+ezANOVA(pbic6,
+        dv = U,
+        between = task,
+        wid = id,
+        type = 3,
+        detailed = T)
+
 ##For mixed lists, Recall of unrelated pairs doesn't differ as a function of encoding group
 
 ####Now for the pure lists####
@@ -436,7 +445,7 @@ sd(pure.read2$U, na.rm = T)
 #run the t-tests
 #Forward pairs
 #jol vs freq
-temp = t.test(pure.FRE2$F, pure.freq2$F, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
+temp = t.test(pure.jol2$F, pure.freq2$F, paired = F, p.adjust.methods = "bonferroni", var.equal = T)
 temp
 round(temp$p.value, 3)
 temp$statistic
@@ -524,6 +533,15 @@ pbic4 = na.omit(pbic4)
 pbic5 = rbind(pbic1, pbic4)
 
 ezANOVA(pbic5,
+        dv = U,
+        between = encoding,
+        wid = id,
+        type = 3,
+        detailed = T)
+
+pbic6 = rbind(pbic2, pbic4)
+
+ezANOVA(pbic6,
         dv = U,
         between = encoding,
         wid = id,
