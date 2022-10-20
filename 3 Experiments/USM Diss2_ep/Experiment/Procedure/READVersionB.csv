@@ -1,0 +1,191 @@
+Item,Trial Type,Max Time,Min Time,Text,Procedure Notes,Shuffle
+0,Instruct,-,10,Please study each of the following word pairs. Remember that your memory will be tested! Each pair will be displayed on the computer screen and will automatically advance to the next pair. Press ENTER when you are ready to begin.,Initial_Instruct,Instruct1
+52,STUDY,8,8,,Study/JOL,BUFFER
+53,STUDY,8,8,,Study/JOL,BUFFER
+54,STUDY,8,8,,Study/JOL,BUFFER
+55,STUDY,8,8,,Study/JOL,BUFFER
+56,STUDY,8,8,,Study/JOL,BUFFER
+57,STUDY,8,8,,Study/JOL,Study Phase
+59,STUDY,8,8,,Study/JOL,Study Phase
+59,STUDY,8,8,,Study/JOL,Study Phase
+60,STUDY,8,8,,Study/JOL,Study Phase
+61,STUDY,8,8,,Study/JOL,Study Phase
+62,STUDY,8,8,,Study/JOL,Study Phase
+63,STUDY,8,8,,Study/JOL,Study Phase
+64,STUDY,8,8,,Study/JOL,Study Phase
+65,STUDY,8,8,,Study/JOL,Study Phase
+66,STUDY,8,8,,Study/JOL,Study Phase
+67,STUDY,8,8,,Study/JOL,Study Phase
+68,STUDY,8,8,,Study/JOL,Study Phase
+69,STUDY,8,8,,Study/JOL,Study Phase
+70,STUDY,8,8,,Study/JOL,Study Phase
+71,STUDY,8,8,,Study/JOL,Study Phase
+72,STUDY,8,8,,Study/JOL,Study Phase
+73,STUDY,8,8,,Study/JOL,Study Phase
+74,STUDY,8,8,,Study/JOL,Study Phase
+75,STUDY,8,8,,Study/JOL,Study Phase
+76,STUDY,8,8,,Study/JOL,Study Phase
+77,STUDY,8,8,,Study/JOL,Study Phase
+78,STUDY,8,8,,Study/JOL,Study Phase
+79,STUDY,8,8,,Study/JOL,Study Phase
+80,STUDY,8,8,,Study/JOL,Study Phase
+81,STUDY,8,8,,Study/JOL,Study Phase
+82,STUDY,8,8,,Study/JOL,Study Phase
+23,STUDY,8,8,,Study/JOL,Study Phase
+84,STUDY,8,8,,Study/JOL,Study Phase
+85,STUDY,8,8,,Study/JOL,Study Phase
+86,STUDY,8,8,,Study/JOL,Study Phase
+87,STUDY,8,8,,Study/JOL,Study Phase
+88,STUDY,8,8,,Study/JOL,Study Phase
+89,STUDY,8,8,,Study/JOL,Study Phase
+90,STUDY,8,8,,Study/JOL,Study Phase
+91,STUDY,8,8,,Study/JOL,Study Phase
+92,STUDY,8,8,,Study/JOL,Study Phase
+93,STUDY,8,8,,Study/JOL,Study Phase
+94,STUDY,8,8,,Study/JOL,Study Phase
+95,STUDY,8,8,,Study/JOL,Study Phase
+96,STUDY,8,8,,Study/JOL,Study Phase
+97,STUDY,8,8,,Study/JOL,BUFFER2
+98,STUDY,8,8,,Study/JOL,BUFFER2
+99,STUDY,8,8,,Study/JOL,BUFFER2
+100,STUDY,8,8,,Study/JOL,BUFFER2
+101,STUDY,8,8,,Study/JOL,BUFFER2
+0,Instruct,User,-,You have completed this section. Please press Enter.,Filler_Instruction,Instruct2
+0,FreeRecall,120,120,Please list the 50 US states in alphabetical order. The task will automatically advance to the next screen after two minutes.,,Filler1
+0,Instruct,-,10,"You will now be presented with the first word from each of the previously studied item pairs. Please type the missing word. If you do not know the word, you may guess or press Enter to skip forward to the next pair.",,Instruct3
+57,Test,User,-,,Recall,Recall1
+59,Test,User,-,,Recall,Recall1
+59,Test,User,-,,Recall,Recall1
+60,Test,User,-,,Recall,Recall1
+61,Test,User,-,,Recall,Recall1
+62,Test,User,-,,Recall,Recall1
+63,Test,User,-,,Recall,Recall1
+64,Test,User,-,,Recall,Recall1
+65,Test,User,-,,Recall,Recall1
+66,Test,User,-,,Recall,Recall1
+67,Test,User,-,,Recall,Recall1
+68,Test,User,-,,Recall,Recall1
+69,Test,User,-,,Recall,Recall1
+70,Test,User,-,,Recall,Recall1
+71,Test,User,-,,Recall,Recall1
+72,Test,User,-,,Recall,Recall1
+73,Test,User,-,,Recall,Recall1
+74,Test,User,-,,Recall,Recall1
+75,Test,User,-,,Recall,Recall1
+76,Test,User,-,,Recall,Recall1
+77,Test,User,-,,Recall,Recall1
+78,Test,User,-,,Recall,Recall1
+79,Test,User,-,,Recall,Recall1
+80,Test,User,-,,Recall,Recall1
+81,Test,User,-,,Recall,Recall1
+82,Test,User,-,,Recall,Recall1
+23,Test,User,-,,Recall,Recall1
+84,Test,User,-,,Recall,Recall1
+85,Test,User,-,,Recall,Recall1
+86,Test,User,-,,Recall,Recall1
+87,Test,User,-,,Recall,Recall1
+88,Test,User,-,,Recall,Recall1
+89,Test,User,-,,Recall,Recall1
+90,Test,User,-,,Recall,Recall1
+91,Test,User,-,,Recall,Recall1
+92,Test,User,-,,Recall,Recall1
+93,Test,User,-,,Recall,Recall1
+94,Test,User,-,,Recall,Recall1
+95,Test,User,-,,Recall,Recall1
+96,Test,User,-,,Recall,Recall1
+0,Instruct,-,10,You will now be presented with a new set of word pairs. Please study each pair. Remember that your memory will be tested! Each pair will be displayed on the computer screen and will automatically advance to the next pair. Press ENTER when you are ready to begin.,Initial_Instruct,Instruct4
+2,STUDY,8,8,,Study/JOL,BUFFER3
+3,STUDY,8,8,,Study/JOL,BUFFER3
+4,STUDY,8,8,,Study/JOL,BUFFER3
+5,STUDY,8,8,,Study/JOL,BUFFER3
+6,STUDY,8,8,,Study/JOL,BUFFER3
+7,STUDY,8,8,,Study/JOL,Study Phase2
+8,STUDY,8,8,,Study/JOL,Study Phase2
+9,STUDY,8,8,,Study/JOL,Study Phase2
+10,STUDY,8,8,,Study/JOL,Study Phase2
+11,STUDY,8,8,,Study/JOL,Study Phase2
+12,STUDY,8,8,,Study/JOL,Study Phase2
+13,STUDY,8,8,,Study/JOL,Study Phase2
+14,STUDY,8,8,,Study/JOL,Study Phase2
+15,STUDY,8,8,,Study/JOL,Study Phase2
+16,STUDY,8,8,,Study/JOL,Study Phase2
+17,STUDY,8,8,,Study/JOL,Study Phase2
+18,STUDY,8,8,,Study/JOL,Study Phase2
+19,STUDY,8,8,,Study/JOL,Study Phase2
+20,STUDY,8,8,,Study/JOL,Study Phase2
+21,STUDY,8,8,,Study/JOL,Study Phase2
+22,STUDY,8,8,,Study/JOL,Study Phase2
+23,STUDY,8,8,,Study/JOL,Study Phase2
+24,STUDY,8,8,,Study/JOL,Study Phase2
+25,STUDY,8,8,,Study/JOL,Study Phase2
+26,STUDY,8,8,,Study/JOL,Study Phase2
+27,STUDY,8,8,,Study/JOL,Study Phase2
+28,STUDY,8,8,,Study/JOL,Study Phase2
+29,STUDY,8,8,,Study/JOL,Study Phase2
+30,STUDY,8,8,,Study/JOL,Study Phase2
+31,STUDY,8,8,,Study/JOL,Study Phase2
+32,STUDY,8,8,,Study/JOL,Study Phase2
+33,STUDY,8,8,,Study/JOL,Study Phase2
+34,STUDY,8,8,,Study/JOL,Study Phase2
+35,STUDY,8,8,,Study/JOL,Study Phase2
+36,STUDY,8,8,,Study/JOL,Study Phase2
+37,STUDY,8,8,,Study/JOL,Study Phase2
+38,STUDY,8,8,,Study/JOL,Study Phase2
+39,STUDY,8,8,,Study/JOL,Study Phase2
+40,STUDY,8,8,,Study/JOL,Study Phase2
+41,STUDY,8,8,,Study/JOL,Study Phase2
+42,STUDY,8,8,,Study/JOL,Study Phase2
+43,STUDY,8,8,,Study/JOL,Study Phase2
+44,STUDY,8,8,,Study/JOL,Study Phase2
+45,STUDY,8,8,,Study/JOL,Study Phase2
+46,STUDY,8,8,,Study/JOL,Study Phase2
+47,STUDY,8,8,,Study/JOL,BUFFER4
+48,STUDY,8,8,,Study/JOL,BUFFER4
+49,STUDY,8,8,,Study/JOL,BUFFER4
+50,STUDY,8,8,,Study/JOL,BUFFER4
+51,STUDY,8,8,,Study/JOL,BUFFER4
+0,Instruct,User,-,You have completed this section. Please press Enter.,Filler_Instruction,Instruct5
+0,FreeRecall,120,120,Please list the 50 US states in reverse alphabetical order (z - a). The task will automatically advance to the next screen after two minutes.,,Filler2
+0,Instruct,-,10,"You will now be presented with the first word from each of the previously studied item pairs. Please type the missing word. If you do not know the word, you may guess or press Enter to skip forward to the next pair.",,Instruct6
+7,Test,User,-,,Recall,Recall2
+8,Test,User,-,,Recall,Recall2
+9,Test,User,-,,Recall,Recall2
+10,Test,User,-,,Recall,Recall2
+11,Test,User,-,,Recall,Recall2
+12,Test,User,-,,Recall,Recall2
+13,Test,User,-,,Recall,Recall2
+14,Test,User,-,,Recall,Recall2
+15,Test,User,-,,Recall,Recall2
+16,Test,User,-,,Recall,Recall2
+17,Test,User,-,,Recall,Recall2
+18,Test,User,-,,Recall,Recall2
+19,Test,User,-,,Recall,Recall2
+20,Test,User,-,,Recall,Recall2
+21,Test,User,-,,Recall,Recall2
+22,Test,User,-,,Recall,Recall2
+23,Test,User,-,,Recall,Recall2
+24,Test,User,-,,Recall,Recall2
+25,Test,User,-,,Recall,Recall2
+26,Test,User,-,,Recall,Recall2
+27,Test,User,-,,Recall,Recall2
+28,Test,User,-,,Recall,Recall2
+29,Test,User,-,,Recall,Recall2
+30,Test,User,-,,Recall,Recall2
+31,Test,User,-,,Recall,Recall2
+32,Test,User,-,,Recall,Recall2
+33,Test,User,-,,Recall,Recall2
+34,Test,User,-,,Recall,Recall2
+35,Test,User,-,,Recall,Recall2
+36,Test,User,-,,Recall,Recall2
+37,Test,User,-,,Recall,Recall2
+38,Test,User,-,,Recall,Recall2
+39,Test,User,-,,Recall,Recall2
+40,Test,User,-,,Recall,Recall2
+41,Test,User,-,,Recall,Recall2
+42,Test,User,-,,Recall,Recall2
+43,Test,User,-,,Recall,Recall2
+44,Test,User,-,,Recall,Recall2
+45,Test,User,-,,Recall,Recall2
+46,Test,User,-,,Recall,Recall2
+0,Instruct,User,-,You have completed this section. Please press Enter.,,Instruct7
+0,Instruct,User,-,The following screen will ask you a few questions abour your experience today. You must complete these questions to receive credit.,,Instruct8

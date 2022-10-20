@@ -1,0 +1,248 @@
+Username,ID,Date,Session,Condition_Number,Condition_Description,Output_File,Stimuli_File,Procedure_File,Browser,DeviceType,OS,IP
+10113024,sths27glue,2022-01-04T17:50:11+00:00,1,1,"Read Mixed A",Output_Session1_10113024_sths27glue.csv,Mixed_Stim.csv,READVersionA.csv,"Safari 14.1",Desktop,MacOSX,10.0.13.123
+10113024,wvy4uhfk14,2022-01-04T17:50:19+00:00,1,2,"Read Mixed B",Output_Session1_10113024_wvy4uhfk14.csv,Mixed_Stim.csv,READVersionB.csv,"Safari 14.1",Desktop,MacOSX,10.0.13.123
+w10030640,85z8rp8vwa,2022-01-04T18:18:40+00:00,1,3,"Read Pure F A",Output_Session1_w10030640_85z8rp8vwa.csv,Pure_Forward.csv,READVersionA.csv,"Safari 13.1",Desktop,MacOSX,10.0.13.123
+w10126362,js777kqnr7,2022-01-04T19:00:35+00:00,1,4,"Read Pure F B",Output_Session1_w10126362_js777kqnr7.csv,Pure_Forward.csv,READVersionB.csv,"Chrome 96.0",Desktop,MacOSX,10.0.13.123
+W10113008_JA,jdhu4w9fdm,2022-01-05T02:12:28+00:00,1,5,"Read Pure U A",Output_Session1_W10113008_JA_jdhu4w9fdm.csv,Pure_Unrelated.csv,READVersionA.csv,"Chrome 96.0",Desktop,Win10,10.0.13.124
+981983_HA,yl7uputule,2022-01-05T16:53:25+00:00,1,6,"Read Pure U B",Output_Session1_981983_HA_yl7uputule.csv,Pure_Unrelated.csv,READVersionB.csv,"Chrome 96.0",Desktop,MacOSX,10.0.13.123
+W981983_HA,cblgye9khr,2022-01-05T16:56:02+00:00,1,7,"Freq Mixed A",Output_Session1_W981983_HA_cblgye9khr.csv,Mixed_Stim.csv,FREQVersionA.csv,"Chrome 96.0",Desktop,MacOSX,10.0.13.123
+W10101259_HT,39jt57jwrk,2022-01-05T21:41:19+00:00,1,8,"Freq Mixed B",Output_Session1_W10101259_HT_39jt57jwrk.csv,Mixed_Stim.csv,FREQVersionB.csv,"Safari 14.1",Desktop,MacOSX,10.0.13.123
+w10046647,m4h4tact11,2022-01-06T02:22:41+00:00,1,9,"Freq Pure F A",Output_Session1_w10046647_m4h4tact11.csv,Pure_Forward.csv,FREQVersionA.csv,"Chrome 97.0",Desktop,Win10,10.0.13.123
+w10110388_clt,1pyry7n88g,2022-01-06T05:02:05+00:00,1,10,"Freq Pure F B",Output_Session1_w10110388_clt_1pyry7n88g.csv,Pure_Forward.csv,FREQVersionB.csv,"Chrome 96.0",Desktop,MacOSX,10.0.13.123
+w10041005,vvrsaatotv,2022-01-06T15:51:00+00:00,1,11,"Freq Pure U A",Output_Session1_w10041005_vvrsaatotv.csv,Pure_Unrelated.csv,FREQVersionA.csv,"Safari 15.1",Desktop,MacOSX,10.0.13.124
+w10030668_kk,l0q1ziztjy,2022-01-06T19:41:19+00:00,1,12,"Freq Pure U B",Output_Session1_w10030668_kk_l0q1ziztjy.csv,Pure_Unrelated.csv,FREQVersionB.csv,"Chrome 94.0",Desktop,Win10,10.0.13.124
+w10101259,225579oi59,2022-01-06T21:24:48+00:00,1,13,"JOL Mixed A",Output_Session1_w10101259_225579oi59.csv,Mixed_Stim.csv,JOLVersionA.csv,"Safari 14.1",Desktop,MacOSX,10.0.13.123
+w10122100ajc,a1skoy4gkk,2022-01-07T00:04:46+00:00,1,14,"JOL Mixed B",Output_Session1_w10122100ajc_a1skoy4gkk.csv,Mixed_Stim.csv,JOLVersionB.csv,"Chrome 96.0",Desktop,Win10,10.0.13.124
+W10012171_RFM,0mg256wtr5,2022-01-07T00:25:32+00:00,1,15,"JOL Pure F A",Output_Session1_W10012171_RFM_0mg256wtr5.csv,Pure_Forward.csv,JOLVersionA.csv,"Firefox 95.0",Desktop,Win10,10.0.13.124
+W10110388_CLT.,jsntk3u1g8,2022-01-07T04:28:54+00:00,1,16,"JOL Pure F B",Output_Session1_W10110388_CLT._jsntk3u1g8.csv,Pure_Forward.csv,JOLVersionB.csv,"Chrome 96.0",Desktop,MacOSX,10.0.13.123
+w10108599,ja3hhsjo17,2022-01-07T08:00:02+00:00,1,17,"JOL Pure U A",Output_Session1_w10108599_ja3hhsjo17.csv,Pure_Unrelated.csv,JOLVersionA.csv,"Chrome 96.0",Desktop,MacOSX,10.0.13.123
+10094712,7cnucd3t3l,2022-01-07T18:23:39+00:00,1,18,"JOL Pure U B",Output_Session1_10094712_7cnucd3t3l.csv,Pure_Unrelated.csv,JOLVersionB.csv,"Chrome 96.0",Desktop,MacOSX,10.0.13.124
+w10089826DJ,ugo7ig85et,2022-01-09T01:25:34+00:00,1,1,"Read Mixed A",Output_Session1_w10089826DJ_ugo7ig85et.csv,Mixed_Stim.csv,READVersionA.csv,"Chrome 96.0",Desktop,MacOSX,10.0.13.124
+W10098703_CMK,f6mvyf1n9i,2022-01-09T02:03:49+00:00,1,2,"Read Mixed B",Output_Session1_W10098703_CMK_f6mvyf1n9i.csv,Mixed_Stim.csv,READVersionB.csv,"Chrome 97.0",Desktop,Win10,10.0.13.123
+W10110388_CLT,mim4ix8wrr,2022-01-11T03:48:37+00:00,1,3,"Read Pure F A",Output_Session1_W10110388_CLT_mim4ix8wrr.csv,Pure_Forward.csv,READVersionA.csv,"Chrome 96.0",Desktop,MacOSX,10.0.13.123
+w10103983,y8r4bh1e3k,2022-01-12T01:41:58+00:00,1,4,"Read Pure F B",Output_Session1_w10103983_y8r4bh1e3k.csv,Pure_Forward.csv,READVersionB.csv,"Safari 14.0",Desktop,MacOSX,10.0.13.123
+w10054029_chl,s1rhe8xb25,2022-01-12T06:06:57+00:00,1,5,"Read Pure U A",Output_Session1_w10054029_chl_s1rhe8xb25.csv,Pure_Unrelated.csv,READVersionA.csv,"Edge 97.0",Desktop,Win10,10.0.13.124
+w10136582,kgbxg9vjoe,2022-01-12T23:44:24+00:00,1,6,"Read Pure U B",Output_Session1_w10136582_kgbxg9vjoe.csv,Pure_Unrelated.csv,READVersionB.csv,"Chrome 97.0",Desktop,Win10,10.0.13.123
+w10108184_ajd,kby8onjr2m,2022-01-13T18:48:01+00:00,1,7,"Freq Mixed A",Output_Session1_w10108184_ajd_kby8onjr2m.csv,Mixed_Stim.csv,FREQVersionA.csv,"Mobile Safari 15.1","Mobile Phone",iOS,10.0.13.123
+w10089826,j5fnsez3uh,2022-01-13T19:56:58+00:00,1,8,"Freq Mixed B",Output_Session1_w10089826_j5fnsez3uh.csv,Mixed_Stim.csv,FREQVersionB.csv,"Mobile Safari 15.0","Mobile Phone",iOS,10.0.13.123
+w10100950,i1k5eb0dc9,2022-01-14T00:15:20+00:00,1,9,"Freq Pure F A",Output_Session1_w10100950_i1k5eb0dc9.csv,Pure_Forward.csv,FREQVersionA.csv,DefaultProperties,unknown,unknown,10.0.13.124
+w10083680,tbwgr1fiih,2022-01-14T00:30:29+00:00,1,10,"Freq Pure F B",Output_Session1_w10083680_tbwgr1fiih.csv,Pure_Forward.csv,FREQVersionB.csv,"Chrome 97.0",Desktop,MacOSX,10.0.13.123
+w10137311,6ofbrhvmds,2022-01-20T20:51:11+00:00,1,11,"Freq Pure U A",Output_Session1_w10137311_6ofbrhvmds.csv,Pure_Unrelated.csv,FREQVersionA.csv,"Chrome 97.0",Desktop,Win10,10.0.13.123
+w10075657,n6bgmrytln,2022-01-20T22:33:36+00:00,1,12,"Freq Pure U B",Output_Session1_w10075657_n6bgmrytln.csv,Pure_Unrelated.csv,FREQVersionB.csv,"Chrome 96.0",Desktop,MacOSX,10.0.13.124
+w10022439,54y4yghjji,2022-01-21T00:41:11+00:00,1,13,"JOL Mixed A",Output_Session1_w10022439_54y4yghjji.csv,Mixed_Stim.csv,JOLVersionA.csv,"Safari 13.1",Desktop,MacOSX,10.0.13.124
+w993005_LMS,bla6czn9u5,2022-01-21T03:00:39+00:00,1,14,"JOL Mixed B",Output_Session1_w993005_LMS_bla6czn9u5.csv,Mixed_Stim.csv,JOLVersionB.csv,"Chrome 97.0",Desktop,Win10,10.0.13.124
+w10111650,2q2yc8ol0m,2022-01-21T18:37:39+00:00,1,15,"JOL Pure F A",Output_Session1_w10111650_2q2yc8ol0m.csv,Pure_Forward.csv,JOLVersionA.csv,"Safari 15.1",Desktop,MacOSX,10.0.13.124
+w10098066_GP,w8wkqzliyc,2022-01-21T20:10:41+00:00,1,16,"JOL Pure F B",Output_Session1_w10098066_GP_w8wkqzliyc.csv,Pure_Forward.csv,JOLVersionB.csv,"Chrome 97.0",Desktop,Win10,10.0.13.124
+w10073125_mnm,g3jllbpq50,2022-01-21T21:37:02+00:00,1,17,"JOL Pure U A",Output_Session1_w10073125_mnm_g3jllbpq50.csv,Pure_Unrelated.csv,JOLVersionA.csv,"Chrome 97.0",Desktop,Win10,10.0.13.124
+w10056364,j9qy5fs32v,2022-01-22T15:39:31+00:00,1,18,"JOL Pure U B",Output_Session1_w10056364_j9qy5fs32v.csv,Pure_Unrelated.csv,JOLVersionB.csv,"Chrome 96.0",Desktop,MacOSX,10.0.13.124
+w10127202_kg,9ufxk8sxsb,2022-01-22T15:44:02+00:00,1,1,"Read Mixed A",Output_Session1_w10127202_kg_9ufxk8sxsb.csv,Mixed_Stim.csv,READVersionA.csv,"Chrome 97.0",Desktop,Win10,10.0.13.123
+10130306,a5su0iscj9,2022-01-22T21:06:50+00:00,1,2,"Read Mixed B",Output_Session1_10130306_a5su0iscj9.csv,Mixed_Stim.csv,READVersionB.csv,"Chrome 97.0",Desktop,MacOSX,10.0.13.123
+w10097097,6flupo2owa,2022-01-22T23:34:27+00:00,1,3,"Read Pure F A",Output_Session1_w10097097_6flupo2owa.csv,Pure_Forward.csv,READVersionA.csv,"Edge 97.0",Desktop,Win10,10.0.13.123
+w10137082DT,3rn2k9iwso,2022-01-23T04:32:34+00:00,1,4,"Read Pure F B",Output_Session1_w10137082DT_3rn2k9iwso.csv,Pure_Forward.csv,READVersionB.csv,"Chrome 97.0",Desktop,MacOSX,10.0.13.123
+w10095126_A,z91b2dmea9,2022-01-23T15:08:09+00:00,1,5,"Read Pure U A",Output_Session1_w10095126_A_z91b2dmea9.csv,Pure_Unrelated.csv,READVersionA.csv,"Edge 97.0",Desktop,Win10,10.0.13.124
+W10095126_ALR,9hd6inxoxt,2022-01-23T15:08:40+00:00,1,6,"Read Pure U B",Output_Session1_W10095126_ALR_9hd6inxoxt.csv,Pure_Unrelated.csv,READVersionB.csv,"Edge 97.0",Desktop,Win10,10.0.13.124
+w326476,veavhezd7f,2022-01-23T19:49:31+00:00,1,7,"Freq Mixed A",Output_Session1_w326476_veavhezd7f.csv,Mixed_Stim.csv,FREQVersionA.csv,"Chrome 97.0",Desktop,Win10,10.0.13.124
+w859996lj,c2whnm9mfo,2022-01-23T20:22:39+00:00,1,8,"Freq Mixed B",Output_Session1_w859996lj_c2whnm9mfo.csv,Mixed_Stim.csv,FREQVersionB.csv,"Edge 97.0",Desktop,Win10,10.0.13.123
+W10110328,t7zsm8ip0f,2022-01-23T22:12:02+00:00,1,9,"Freq Pure F A",Output_Session1_W10110328_t7zsm8ip0f.csv,Pure_Forward.csv,FREQVersionA.csv,"Mobile Safari Generic","Mobile Phone",iOS,10.0.13.124
+w10044330,x3z2bd1gfn,2022-01-24T00:31:29+00:00,1,10,"Freq Pure F B",Output_Session1_w10044330_x3z2bd1gfn.csv,Pure_Forward.csv,FREQVersionB.csv,"Chrome 97.0",Desktop,Win10,10.0.13.124
+w214207,1qfrq1zalh,2022-01-24T00:39:11+00:00,1,11,"Freq Pure U A",Output_Session1_w214207_1qfrq1zalh.csv,Pure_Unrelated.csv,FREQVersionA.csv,"Safari 15.0",Desktop,MacOSX,10.0.13.123
+W10104420_VSP,sr6guqpiq2,2022-01-24T01:15:34+00:00,1,12,"Freq Pure U B",Output_Session1_W10104420_VSP_sr6guqpiq2.csv,Pure_Unrelated.csv,FREQVersionB.csv,"Chrome 97.0",Desktop,Win10,10.0.13.123
+w10132325_DMA,152mfw1lqc,2022-01-24T03:50:41+00:00,1,13,"JOL Mixed A",Output_Session1_w10132325_DMA_152mfw1lqc.csv,Mixed_Stim.csv,JOLVersionA.csv,"Chrome 97.0",Desktop,Win10,10.0.13.124
+w10118691,hm44cctjy6,2022-01-24T04:03:58+00:00,1,14,"JOL Mixed B",Output_Session1_w10118691_hm44cctjy6.csv,Mixed_Stim.csv,JOLVersionB.csv,"Chrome 97.0",Desktop,Win10,10.0.13.124
+w10039167,kk04frz62m,2022-01-24T16:49:58+00:00,1,15,"JOL Pure F A",Output_Session1_w10039167_kk04frz62m.csv,Pure_Forward.csv,JOLVersionA.csv,"Safari 15.1",Desktop,MacOSX,10.0.13.123
+w10042098,iaeshdp8nq,2022-01-24T19:39:29+00:00,1,16,"JOL Pure F B",Output_Session1_w10042098_iaeshdp8nq.csv,Pure_Forward.csv,JOLVersionB.csv,"Chrome 97.0",Desktop,Win10,10.0.13.123
+w10004245,0v7gs68odh,2022-01-24T23:27:16+00:00,1,17,"JOL Pure U A",Output_Session1_w10004245_0v7gs68odh.csv,Pure_Unrelated.csv,JOLVersionA.csv,"Edge 97.0",Desktop,Win10,10.0.13.123
+w10111797,e5urxzjmos,2022-01-25T00:23:13+00:00,1,18,"JOL Pure U B",Output_Session1_w10111797_e5urxzjmos.csv,Pure_Unrelated.csv,JOLVersionB.csv,"Chrome 97.0",Desktop,Win10,10.0.13.124
+w10062352,s5mrmh2wz8,2022-01-25T03:57:45+00:00,1,1,"Read Mixed A",Output_Session1_w10062352_s5mrmh2wz8.csv,Mixed_Stim.csv,READVersionA.csv,"Chrome 96.0",Desktop,MacOSX,10.0.13.123
+w10103314,1dfapei2sa,2022-01-26T18:57:39+00:00,1,2,"Read Mixed B",Output_Session1_w10103314_1dfapei2sa.csv,Mixed_Stim.csv,READVersionB.csv,"Chrome 96.0",Desktop,Win8.1,10.0.13.124
+W10055557_CCC,xbzsdmywxv,2022-01-26T22:22:00+00:00,1,3,"Read Pure F A",Output_Session1_W10055557_CCC_xbzsdmywxv.csv,Pure_Forward.csv,READVersionA.csv,"Chrome 97.0",Desktop,Win10,10.0.13.123
+w10104906_JAM,jqaygsqib4,2022-01-26T22:40:03+00:00,1,4,"Read Pure F B",Output_Session1_w10104906_JAM_jqaygsqib4.csv,Pure_Forward.csv,READVersionB.csv,"Chrome 95.0",Desktop,MacOSX,10.0.13.123
+w10111018,sekc6aylew,2022-01-27T22:20:02+00:00,1,5,"Read Pure U A",Output_Session1_w10111018_sekc6aylew.csv,Pure_Unrelated.csv,READVersionA.csv,"Mobile Safari 14.1","Mobile Phone",iOS,10.0.13.123
+10059972,lso6l7r7wo,2022-01-29T22:05:40+00:00,1,6,"Read Pure U B",Output_Session1_10059972_lso6l7r7wo.csv,Pure_Unrelated.csv,READVersionB.csv,"Mobile Safari Generic","Mobile Phone",iOS,10.0.13.123
+W10056406,cwdxfdhdv0,2022-01-30T02:51:40+00:00,1,7,"Freq Mixed A",Output_Session1_W10056406_cwdxfdhdv0.csv,Mixed_Stim.csv,FREQVersionA.csv,"Safari 15.2",Desktop,MacOSX,10.0.13.124
+w10079472,eqdmnmi2fo,2022-02-01T14:57:00+00:00,1,8,"Freq Mixed B",Output_Session1_w10079472_eqdmnmi2fo.csv,Mixed_Stim.csv,FREQVersionB.csv,"Safari 14.0",Desktop,MacOSX,10.0.13.123
+10099735,4uy8howypc,2022-02-01T19:43:37+00:00,1,9,"Freq Pure F A",Output_Session1_10099735_4uy8howypc.csv,Pure_Forward.csv,FREQVersionA.csv,"Chrome 97.0",Desktop,MacOSX,10.0.13.123
+10037566,krud5lwqf0,2022-02-01T19:51:28+00:00,1,10,"Freq Pure F B",Output_Session1_10037566_krud5lwqf0.csv,Pure_Forward.csv,FREQVersionB.csv,"Chrome 97.0",Desktop,Win10,10.0.13.124
+w10008682,pcenp1qkfh,2022-02-03T21:00:51+00:00,1,11,"Freq Pure U A",Output_Session1_w10008682_pcenp1qkfh.csv,Pure_Unrelated.csv,FREQVersionA.csv,"Chrome 97.0",Desktop,Win10,10.0.13.123
+10085338,2lgyhqh70y,2022-02-05T21:00:42+00:00,1,12,"Freq Pure U B",Output_Session1_10085338_2lgyhqh70y.csv,Pure_Unrelated.csv,FREQVersionB.csv,DefaultProperties,unknown,unknown,10.0.13.124
+w10081946,ecyeoqsg5g,2022-02-07T00:13:29+00:00,1,13,"JOL Mixed A",Output_Session1_w10081946_ecyeoqsg5g.csv,Mixed_Stim.csv,JOLVersionA.csv,"Chrome 97.0",Desktop,MacOSX,10.0.13.123
+10104845,sm9b2cymme,2022-02-07T16:20:13+00:00,1,14,"JOL Mixed B",Output_Session1_10104845_sm9b2cymme.csv,Mixed_Stim.csv,JOLVersionB.csv,"Chrome 97.0",Desktop,Win10,10.0.13.124
+w10001222,3nhu1msbez,2022-02-07T23:44:11+00:00,1,15,"JOL Pure F A",Output_Session1_w10001222_3nhu1msbez.csv,Pure_Forward.csv,JOLVersionA.csv,"Safari 14.1",Desktop,MacOSX,10.0.13.124
+w10119552,e7x684eory,2022-02-09T04:27:33+00:00,1,16,"JOL Pure F B",Output_Session1_w10119552_e7x684eory.csv,Pure_Forward.csv,JOLVersionB.csv,DefaultProperties,unknown,unknown,10.0.13.123
+W10070340_ACM,6hokx3gbh8,2022-02-09T07:16:54+00:00,1,17,"JOL Pure U A",Output_Session1_W10070340_ACM_6hokx3gbh8.csv,Pure_Unrelated.csv,JOLVersionA.csv,"Edge 97.0",Desktop,Win10,10.0.13.123
+W10062325_BKT,s4z1236388,2022-02-10T05:09:48+00:00,1,18,"JOL Pure U B",Output_Session1_W10062325_BKT_s4z1236388.csv,Pure_Unrelated.csv,JOLVersionB.csv,"Chrome 97.0",Desktop,MacOSX,10.0.13.123
+w10050755,6j000shtge,2022-02-10T10:06:42+00:00,1,1,"Read Mixed A",Output_Session1_w10050755_6j000shtge.csv,Mixed_Stim.csv,READVersionA.csv,"Chrome 98.0",Desktop,Win10,10.0.13.123
+w10056898,ajk1du7dah,2022-02-11T03:49:37+00:00,1,2,"Read Mixed B",Output_Session1_w10056898_ajk1du7dah.csv,Mixed_Stim.csv,READVersionB.csv,"Chrome 97.0",Desktop,Win10,10.0.13.123
+w10061310_bcm,ghioe3ccw7,2022-02-11T16:56:15+00:00,1,3,"Read Pure F A",Output_Session1_w10061310_bcm_ghioe3ccw7.csv,Pure_Forward.csv,READVersionA.csv,"Chrome 98.0",Desktop,MacOSX,10.0.13.124
+w545803,lk2d3uya38,2022-02-11T17:54:23+00:00,1,4,"Read Pure F B",Output_Session1_w545803_lk2d3uya38.csv,Pure_Forward.csv,READVersionB.csv,"Edge 98.0",Desktop,Win10,10.0.13.123
+w545802,voskvo2xcx,2022-02-13T04:46:00+00:00,1,5,"Read Pure U A",Output_Session1_w545802_voskvo2xcx.csv,Pure_Unrelated.csv,READVersionA.csv,"Chrome 98.0",Desktop,Win10,10.0.13.124
+w10062325,kmmurdc55s,2022-02-14T01:37:33+00:00,1,6,"Read Pure U B",Output_Session1_w10062325_kmmurdc55s.csv,Pure_Unrelated.csv,READVersionB.csv,"Chrome 97.0",Desktop,MacOSX,10.0.13.123
+141641,zl8lqiosrj,2022-02-15T02:50:57+00:00,1,7,"Freq Mixed A",Output_Session1_141641_zl8lqiosrj.csv,Mixed_Stim.csv,FREQVersionA.csv,"Chrome 98.0",Desktop,Win10,10.0.13.124
+W10083663_EEP,d1xi2zk5sj,2022-02-16T16:09:38+00:00,1,8,"Freq Mixed B",Output_Session1_W10083663_EEP_d1xi2zk5sj.csv,Mixed_Stim.csv,FREQVersionB.csv,"Chrome 98.0",Desktop,MacOSX,10.0.13.124
+w10048421_DEC,t3kba1z8p1,2022-02-17T00:22:24+00:00,1,9,"Freq Pure F A",Output_Session1_w10048421_DEC_t3kba1z8p1.csv,Pure_Forward.csv,FREQVersionA.csv,"Chrome 98.0",Desktop,Win10,10.0.13.124
+w10085282MOB,bdfrazkwg1,2022-02-17T21:34:08+00:00,1,10,"Freq Pure F B",Output_Session1_w10085282MOB_bdfrazkwg1.csv,Pure_Forward.csv,FREQVersionB.csv,"Chrome 98.0",Desktop,MacOSX,10.0.13.124
+W10086692,w3mj52j2iq,2022-02-17T22:18:50+00:00,1,11,"Freq Pure U A",Output_Session1_W10086692_w3mj52j2iq.csv,Pure_Unrelated.csv,FREQVersionA.csv,"Chrome 97.0",Desktop,MacOSX,10.0.13.123
+w10087097,t1j5oegpow,2022-02-17T23:40:17+00:00,1,12,"Freq Pure U B",Output_Session1_w10087097_t1j5oegpow.csv,Pure_Unrelated.csv,FREQVersionB.csv,"Chrome 98.0",Desktop,MacOSX,10.0.13.124
+w10133042,rruztev48r,2022-02-18T00:13:21+00:00,1,13,"JOL Mixed A",Output_Session1_w10133042_rruztev48r.csv,Mixed_Stim.csv,JOLVersionA.csv,"Chrome 98.0",Desktop,Win10,10.0.13.124
+W10049766_AN,8272ampkqh,2022-02-18T01:39:52+00:00,1,14,"JOL Mixed B",Output_Session1_W10049766_AN_8272ampkqh.csv,Mixed_Stim.csv,JOLVersionB.csv,"Chrome 98.0",Desktop,Win10,10.0.13.124
+w10123420,cz516fagf1,2022-02-18T03:35:14+00:00,1,15,"JOL Pure F A",Output_Session1_w10123420_cz516fagf1.csv,Pure_Forward.csv,JOLVersionA.csv,"Safari 14.1",Desktop,MacOSX,10.0.13.123
+w10087651_EKW,8aop97ec9u,2022-02-18T16:49:49+00:00,1,16,"JOL Pure F B",Output_Session1_w10087651_EKW_8aop97ec9u.csv,Pure_Forward.csv,JOLVersionB.csv,"Chrome 98.0",Desktop,MacOSX,10.0.13.124
+w10085282MOB,r1vmohrbn7,2022-02-20T22:39:36+00:00,1,17,"JOL Pure U A",Output_Session1_w10085282MOB_r1vmohrbn7.csv,Pure_Unrelated.csv,JOLVersionA.csv,"Chrome 98.0",Desktop,MacOSX,10.0.13.123
+w10085282MOB,2zc04fjeas,2022-02-21T02:48:36+00:00,1,18,"JOL Pure U B",Output_Session1_w10085282MOB_2zc04fjeas.csv,Pure_Unrelated.csv,JOLVersionB.csv,"Chrome 98.0",Desktop,MacOSX,10.0.13.124
+w10072976,lpy725v89d,2022-02-22T21:16:10+00:00,1,1,"Read Mixed A",Output_Session1_w10072976_lpy725v89d.csv,Mixed_Stim.csv,READVersionA.csv,"Chrome 97.0",Desktop,MacOSX,10.0.13.123
+w10125837,b8o53xook8,2022-02-22T23:39:41+00:00,1,2,"Read Mixed B",Output_Session1_w10125837_b8o53xook8.csv,Mixed_Stim.csv,READVersionB.csv,"Chrome 98.0",Desktop,Win10,10.0.13.124
+w10080591,qbzawr9ab8,2022-02-23T19:33:16+00:00,1,3,"Read Pure F A",Output_Session1_w10080591_qbzawr9ab8.csv,Pure_Forward.csv,READVersionA.csv,"Chrome 98.0",Desktop,MacOSX,10.0.13.123
+10106849,ywwqm2xl02,2022-02-25T17:10:52+00:00,1,4,"Read Pure F B",Output_Session1_10106849_ywwqm2xl02.csv,Pure_Forward.csv,READVersionB.csv,"Chrome 98.0",Desktop,MacOSX,10.0.13.123
+w10057758,tqwinqwas3,2022-02-25T19:26:12+00:00,1,5,"Read Pure U A",Output_Session1_w10057758_tqwinqwas3.csv,Pure_Unrelated.csv,READVersionA.csv,"Chrome 98.0",Desktop,Win10,10.0.13.124
+w855903_klb,3cgu88p12j,2022-03-01T14:18:28+00:00,1,6,"Read Pure U B",Output_Session1_w855903_klb_3cgu88p12j.csv,Pure_Unrelated.csv,READVersionB.csv,"Chrome 98.0",Desktop,Win10,10.0.13.123
+W10003295_MGP,cf6n3y3ica,2022-03-04T01:59:40+00:00,1,7,"Freq Mixed A",Output_Session1_W10003295_MGP_cf6n3y3ica.csv,Mixed_Stim.csv,FREQVersionA.csv,"Chrome 98.0",Desktop,MacOSX,10.0.13.123
+w10040181_LTB,d255kmrfga,2022-03-04T04:03:15+00:00,1,8,"Freq Mixed B",Output_Session1_w10040181_LTB_d255kmrfga.csv,Mixed_Stim.csv,FREQVersionB.csv,"Mobile Safari 14.1","Mobile Phone",iOS,10.0.13.124
+w10105521,af9op12ti0,2022-03-05T02:11:14+00:00,1,9,"Freq Pure F A",Output_Session1_w10105521_af9op12ti0.csv,Pure_Forward.csv,FREQVersionA.csv,"Chrome 96.0",Desktop,MacOSX,10.0.13.124
+W10035706_JPD,aominvd5rt,2022-03-09T06:09:28+00:00,1,10,"Freq Pure F B",Output_Session1_W10035706_JPD_aominvd5rt.csv,Pure_Forward.csv,FREQVersionB.csv,"Safari 15.2",Desktop,MacOSX,10.0.13.124
+w202046,m2lf2a1t3z,2022-03-09T19:37:27+00:00,1,11,"Freq Pure U A",Output_Session1_w202046_m2lf2a1t3z.csv,Pure_Unrelated.csv,FREQVersionA.csv,"Edge 99.0",Desktop,Win10,10.0.13.124
+w10109494,mlk8d11otk,2022-03-09T23:26:59+00:00,1,12,"Freq Pure U B",Output_Session1_w10109494_mlk8d11otk.csv,Pure_Unrelated.csv,FREQVersionB.csv,"Edge 99.0",Desktop,Win10,10.0.13.124
+w10079579,jyf0gxo6vi,2022-03-10T23:27:03+00:00,1,13,"JOL Mixed A",Output_Session1_w10079579_jyf0gxo6vi.csv,Mixed_Stim.csv,JOLVersionA.csv,"Edge 97.0",Desktop,Win10,10.0.13.123
+w10116231_KMY,geiv17oulk,2022-03-14T01:37:35+00:00,1,14,"JOL Mixed B",Output_Session1_w10116231_KMY_geiv17oulk.csv,Mixed_Stim.csv,JOLVersionB.csv,"Edge 99.0",Desktop,Win10,10.0.13.123
+w212914,bdg8ayy4p2,2022-03-18T22:37:35+00:00,1,15,"JOL Pure F A",Output_Session1_w212914_bdg8ayy4p2.csv,Pure_Forward.csv,JOLVersionA.csv,"Safari 14.0",Desktop,MacOSX,10.0.13.124
+w10094719,mgzy6wh9ok,2022-03-21T20:02:54+00:00,1,16,"JOL Pure F B",Output_Session1_w10094719_mgzy6wh9ok.csv,Pure_Forward.csv,JOLVersionB.csv,"Edge 99.0",Desktop,Win10,10.0.13.124
+W10064913_JMP,0f6c1ixrld,2022-03-22T01:14:33+00:00,1,17,"JOL Pure U A",Output_Session1_W10064913_JMP_0f6c1ixrld.csv,Pure_Unrelated.csv,JOLVersionA.csv,"Chrome 99.0",Desktop,MacOSX,10.0.13.124
+w10059972_GRD,bsrn1man6i,2022-03-27T04:54:28+00:00,1,18,"JOL Pure U B",Output_Session1_w10059972_GRD_bsrn1man6i.csv,Pure_Unrelated.csv,JOLVersionB.csv,"Mobile Safari 15.4","Mobile Phone",iOS,10.0.13.123
+w10059972_GRD,c7lergx6xc,2022-03-27T20:35:57+00:00,1,1,"Read Mixed A",Output_Session1_w10059972_GRD_c7lergx6xc.csv,Mixed_Stim.csv,READVersionA.csv,"Edge 99.0",Desktop,Win10,10.0.13.124
+10084217,5hbft8gwxl,2022-03-28T00:42:32+00:00,1,2,"Read Mixed B",Output_Session1_10084217_5hbft8gwxl.csv,Mixed_Stim.csv,READVersionB.csv,"Chrome 99.0",Desktop,MacOSX,10.0.13.123
+W10100968_BDL,a8l71vnslj,2022-03-28T23:51:36+00:00,1,3,"Read Pure F A",Output_Session1_W10100968_BDL_a8l71vnslj.csv,Pure_Forward.csv,READVersionA.csv,"Chrome 99.0",Desktop,Win10,10.0.13.123
+W10005089,jcttxler64,2022-03-29T05:33:56+00:00,1,4,"Read Pure F B",Output_Session1_W10005089_jcttxler64.csv,Pure_Forward.csv,READVersionB.csv,DefaultProperties,unknown,unknown,10.0.13.124
+w10042667_JTG,ohe93i706n,2022-03-29T15:48:59+00:00,1,5,"Read Pure U A",Output_Session1_w10042667_JTG_ohe93i706n.csv,Pure_Unrelated.csv,READVersionA.csv,"Chrome 99.0",Desktop,Win10,10.0.13.124
+w849319_SMF,pc9vqb3tr7,2022-03-29T18:40:42+00:00,1,6,"Read Pure U B",Output_Session1_w849319_SMF_pc9vqb3tr7.csv,Pure_Unrelated.csv,READVersionB.csv,"Chrome 99.0",Desktop,Win10,10.0.13.124
+10111968,3a05o4slqb,2022-03-29T19:41:39+00:00,1,7,"Freq Mixed A",Output_Session1_10111968_3a05o4slqb.csv,Mixed_Stim.csv,FREQVersionA.csv,"Chrome 99.0",Desktop,Win10,10.0.13.124
+w10107537,ndz90dg92r,2022-03-29T20:14:50+00:00,1,8,"Freq Mixed B",Output_Session1_w10107537_ndz90dg92r.csv,Mixed_Stim.csv,FREQVersionB.csv,"Mobile Safari 15.4","Mobile Phone",iOS,10.0.13.124
+w10087208,gd276vyzol,2022-03-29T22:07:26+00:00,1,9,"Freq Pure F A",Output_Session1_w10087208_gd276vyzol.csv,Pure_Forward.csv,FREQVersionA.csv,"Firefox 98.0",Desktop,Win10,10.0.13.124
+w10098177,hii7lb5ele,2022-03-30T11:45:04+00:00,1,10,"Freq Pure F B",Output_Session1_w10098177_hii7lb5ele.csv,Pure_Forward.csv,FREQVersionB.csv,"Edge 99.0",Desktop,Win10,10.0.13.123
+w10098177,rd856adxto,2022-03-30T12:57:04+00:00,1,11,"Freq Pure U A",Output_Session1_w10098177_rd856adxto.csv,Pure_Unrelated.csv,FREQVersionA.csv,"Edge 99.0",Desktop,Win10,10.0.13.123
+w10117847,osytno4rfq,2022-03-30T13:28:19+00:00,1,12,"Freq Pure U B",Output_Session1_w10117847_osytno4rfq.csv,Pure_Unrelated.csv,FREQVersionB.csv,"Safari 15.4",Desktop,MacOSX,10.0.13.123
+w10090932,bq34jr07bv,2022-04-04T01:21:24+00:00,1,13,"JOL Mixed A",Output_Session1_w10090932_bq34jr07bv.csv,Mixed_Stim.csv,JOLVersionA.csv,"Safari 15.1",Desktop,MacOSX,10.0.13.124
+W10013070,dxjq7uvos4,2022-04-04T03:11:43+00:00,1,14,"JOL Mixed B",Output_Session1_W10013070_dxjq7uvos4.csv,Mixed_Stim.csv,JOLVersionB.csv,"Safari 15.3",Desktop,MacOSX,10.0.13.123
+w10099915,t66ydguaaa,2022-04-04T18:17:25+00:00,1,15,"JOL Pure F A",Output_Session1_w10099915_t66ydguaaa.csv,Pure_Forward.csv,JOLVersionA.csv,"Chrome 88.0",Desktop,MacOSX,10.0.13.123
+10125826,b5lstlq4y0,2022-04-05T16:45:43+00:00,1,16,"JOL Pure F B",Output_Session1_10125826_b5lstlq4y0.csv,Pure_Forward.csv,JOLVersionB.csv,"Chrome 99.0",Desktop,MacOSX,10.0.13.123
+w10064760,s7zr6ospj1,2022-04-06T04:47:36+00:00,1,17,"JOL Pure U A",Output_Session1_w10064760_s7zr6ospj1.csv,Pure_Unrelated.csv,JOLVersionA.csv,"Mobile Safari 14.1","Mobile Phone",iOS,10.0.13.123
+w10060109,tgk4b6pfep,2022-04-06T06:51:45+00:00,1,18,"JOL Pure U B",Output_Session1_w10060109_tgk4b6pfep.csv,Pure_Unrelated.csv,JOLVersionB.csv,"Chrome 99.0",Desktop,MacOSX,10.0.13.123
+w10075510,ddgs83ieal,2022-04-06T14:44:40+00:00,1,1,"Read Mixed A",Output_Session1_w10075510_ddgs83ieal.csv,Mixed_Stim.csv,READVersionA.csv,"Safari 15.3",Desktop,MacOSX,10.0.13.123
+10098485,17a3xyt45c,2022-04-06T16:54:31+00:00,1,2,"Read Mixed B",Output_Session1_10098485_17a3xyt45c.csv,Mixed_Stim.csv,READVersionB.csv,"Chrome 98.0",Desktop,MacOSX,10.0.13.123
+w10095378,jm23xhqocg,2022-04-07T02:11:43+00:00,1,3,"Read Pure F A",Output_Session1_w10095378_jm23xhqocg.csv,Pure_Forward.csv,READVersionA.csv,"Chrome 99.0",Desktop,MacOSX,10.0.13.123
+w10112292,jw6nm1nmku,2022-04-07T19:58:44+00:00,1,4,"Read Pure F B",Output_Session1_w10112292_jw6nm1nmku.csv,Pure_Forward.csv,READVersionB.csv,"Chrome 97.0",Desktop,MacOSX,10.0.13.124
+10095269,6fdjpqvpa5,2022-04-07T20:09:04+00:00,1,5,"Read Pure U A",Output_Session1_10095269_6fdjpqvpa5.csv,Pure_Unrelated.csv,READVersionA.csv,"Chrome 99.0",Desktop,Win10,10.0.13.124
+w10111091,3z9aq7jf06,2022-04-07T21:04:01+00:00,1,6,"Read Pure U B",Output_Session1_w10111091_3z9aq7jf06.csv,Pure_Unrelated.csv,READVersionB.csv,"Chrome 99.0",Desktop,Win10,10.0.13.123
+10022443,tftk3kef5s,2022-04-08T20:52:33+00:00,1,7,"Freq Mixed A",Output_Session1_10022443_tftk3kef5s.csv,Mixed_Stim.csv,FREQVersionA.csv,"Chrome 99.0",Desktop,MacOSX,10.0.13.123
+10020920,v0e51kj2lo,2022-04-08T23:41:03+00:00,1,8,"Freq Mixed B",Output_Session1_10020920_v0e51kj2lo.csv,Mixed_Stim.csv,FREQVersionB.csv,"Mobile Safari 15.3","Mobile Phone",iOS,10.0.13.123
+W10121512_JNM,9y5mhxe14g,2022-04-09T13:16:54+00:00,1,9,"Freq Pure F A",Output_Session1_W10121512_JNM_9y5mhxe14g.csv,Pure_Forward.csv,FREQVersionA.csv,"Edge 100.0",Desktop,Win10,10.0.13.123
+w10062452,tlwl5bfwzt,2022-04-12T02:08:51+00:00,1,10,"Freq Pure F B",Output_Session1_w10062452_tlwl5bfwzt.csv,Pure_Forward.csv,FREQVersionB.csv,"Safari 15.3",Desktop,MacOSX,10.0.13.123
+w10107512,4iwwt1bfdy,2022-04-12T02:21:10+00:00,1,11,"Freq Pure U A",Output_Session1_w10107512_4iwwt1bfdy.csv,Pure_Unrelated.csv,FREQVersionA.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.124
+10125826,ets88t6ylp,2022-04-12T16:07:29+00:00,1,12,"Freq Pure U B",Output_Session1_10125826_ets88t6ylp.csv,Pure_Unrelated.csv,FREQVersionB.csv,"Chrome 99.0",Desktop,MacOSX,10.0.13.123
+W10107044_ANL,omvjqius8n,2022-04-13T00:45:52+00:00,1,13,"JOL Mixed A",Output_Session1_W10107044_ANL_omvjqius8n.csv,Mixed_Stim.csv,JOLVersionA.csv,DefaultProperties,unknown,unknown,10.0.13.124
+W10107044_ANL,49lv1rhsmd,2022-04-13T00:50:35+00:00,1,14,"JOL Mixed B",Output_Session1_W10107044_ANL_49lv1rhsmd.csv,Mixed_Stim.csv,JOLVersionB.csv,DefaultProperties,unknown,unknown,10.0.13.124
+w997529,07qmq00mts,2022-04-13T18:32:32+00:00,1,15,"JOL Pure F A",Output_Session1_w997529_07qmq00mts.csv,Pure_Forward.csv,JOLVersionA.csv,"Safari 14.0",Desktop,MacOSX,10.0.13.123
+w10085225,cumnbxo2fz,2022-04-14T21:01:57+00:00,1,16,"JOL Pure F B",Output_Session1_w10085225_cumnbxo2fz.csv,Pure_Forward.csv,JOLVersionB.csv,"Safari 15.4",Desktop,MacOSX,10.0.13.124
+w10131872_KAB,tm31pqdpir,2022-04-14T22:30:42+00:00,1,17,"JOL Pure U A",Output_Session1_w10131872_KAB_tm31pqdpir.csv,Pure_Unrelated.csv,JOLVersionA.csv,"Edge 100.0",Desktop,Win10,10.0.13.123
+w824329,20vrj5ihao,2022-04-19T02:22:11+00:00,1,18,"JOL Pure U B",Output_Session1_w824329_20vrj5ihao.csv,Pure_Unrelated.csv,JOLVersionB.csv,DefaultProperties,unknown,unknown,10.0.13.124
+W10130148,lnsppj4as9,2022-04-19T15:37:21+00:00,1,1,"Read Mixed A",Output_Session1_W10130148_lnsppj4as9.csv,Mixed_Stim.csv,READVersionA.csv,"Chrome 100.0",Desktop,Win10,10.0.13.124
+w995785,uu4zf7xs2q,2022-04-19T19:42:38+00:00,1,2,"Read Mixed B",Output_Session1_w995785_uu4zf7xs2q.csv,Mixed_Stim.csv,READVersionB.csv,"Safari 15.4",Desktop,MacOSX,10.0.13.123
+w10103338,v47iguzl8m,2022-04-19T19:55:33+00:00,1,3,"Read Pure F A",Output_Session1_w10103338_v47iguzl8m.csv,Pure_Forward.csv,READVersionA.csv,"Chrome 100.0",Desktop,Win10,10.0.13.124
+10029821,mjted41beg,2022-04-20T16:30:26+00:00,1,4,"Read Pure F B",Output_Session1_10029821_mjted41beg.csv,Pure_Forward.csv,READVersionB.csv,"Edge 100.0",Desktop,Win10,10.0.13.124
+w10100997,l1c1wa1uet,2022-04-20T18:02:30+00:00,1,5,"Read Pure U A",Output_Session1_w10100997_l1c1wa1uet.csv,Pure_Unrelated.csv,READVersionA.csv,"Chrome 100.0",Desktop,Win10,10.0.13.124
+w1010099,80l3ogaqzf,2022-04-20T18:03:50+00:00,1,6,"Read Pure U B",Output_Session1_w1010099_80l3ogaqzf.csv,Pure_Unrelated.csv,READVersionB.csv,"Chrome 100.0",Desktop,Win10,10.0.13.124
+w10094716,idk0p3kzuw,2022-04-20T23:31:21+00:00,1,7,"Freq Mixed A",Output_Session1_w10094716_idk0p3kzuw.csv,Mixed_Stim.csv,FREQVersionA.csv,"Safari 14.1",Desktop,MacOSX,10.0.13.124
+w10056576,b110n6rfhr,2022-04-21T01:23:09+00:00,1,8,"Freq Mixed B",Output_Session1_w10056576_b110n6rfhr.csv,Mixed_Stim.csv,FREQVersionB.csv,"Mobile Safari 15.4","Mobile Phone",iOS,10.0.13.124
+w10068562,9q4t049746,2022-04-21T16:16:01+00:00,1,9,"Freq Pure F A",Output_Session1_w10068562_9q4t049746.csv,Pure_Forward.csv,FREQVersionA.csv,"Safari 15.0",Desktop,MacOSX,10.0.13.123
+w10105843_ISL,bi6abwzq0s,2022-04-21T19:54:34+00:00,1,10,"Freq Pure F B",Output_Session1_w10105843_ISL_bi6abwzq0s.csv,Pure_Forward.csv,FREQVersionB.csv,"Edge 100.0",Desktop,Win10,10.0.13.124
+w10100196,h89djly8u4,2022-04-21T20:20:35+00:00,1,11,"Freq Pure U A",Output_Session1_w10100196_h89djly8u4.csv,Pure_Unrelated.csv,FREQVersionA.csv,"Safari 14.0",Desktop,MacOSX,10.0.13.123
+10101489,54f1oh4x4e,2022-04-22T00:02:29+00:00,1,12,"Freq Pure U B",Output_Session1_10101489_54f1oh4x4e.csv,Pure_Unrelated.csv,FREQVersionB.csv,"Chrome 100.0",Desktop,Win10,10.0.13.123
+w10100196,f7551061im,2022-04-22T13:18:05+00:00,1,13,"JOL Mixed A",Output_Session1_w10100196_f7551061im.csv,Mixed_Stim.csv,JOLVersionA.csv,"Safari 8.0",Desktop,MacOSX,10.0.13.123
+w998018_HMP,h2nyo6nsot,2022-04-22T21:20:30+00:00,1,14,"JOL Mixed B",Output_Session1_w998018_HMP_h2nyo6nsot.csv,Mixed_Stim.csv,JOLVersionB.csv,"Chrome 100.0",Desktop,Win10,10.0.13.123
+w10113471,i9dhzjhi7t,2022-04-23T02:59:10+00:00,1,15,"JOL Pure F A",Output_Session1_w10113471_i9dhzjhi7t.csv,Pure_Forward.csv,JOLVersionA.csv,"Chrome 99.0",Desktop,MacOSX,10.0.13.123
+W10049640,7daomew0gm,2022-04-25T03:30:39+00:00,1,16,"JOL Pure F B",Output_Session1_W10049640_7daomew0gm.csv,Pure_Forward.csv,JOLVersionB.csv,"Safari 15.2",Desktop,MacOSX,10.0.13.123
+W10059672_BLM,rrtxjfpar6,2022-04-25T19:52:35+00:00,1,17,"JOL Pure U A",Output_Session1_W10059672_BLM_rrtxjfpar6.csv,Pure_Unrelated.csv,JOLVersionA.csv,DefaultProperties,unknown,unknown,10.0.13.124
+w10116707,tq8wlc8hjt,2022-04-25T19:57:26+00:00,1,18,"JOL Pure U B",Output_Session1_w10116707_tq8wlc8hjt.csv,Pure_Unrelated.csv,JOLVersionB.csv,"Safari 12.1",Desktop,MacOSX,10.0.13.124
+w10116707,y4aqcgh8vy,2022-04-25T20:02:59+00:00,1,1,"Read Mixed A",Output_Session1_w10116707_y4aqcgh8vy.csv,Mixed_Stim.csv,READVersionA.csv,"Safari 12.1",Desktop,MacOSX,10.0.13.124
+w10120177,hvu83e3om6,2022-04-26T00:34:25+00:00,1,2,"Read Mixed B",Output_Session1_w10120177_hvu83e3om6.csv,Mixed_Stim.csv,READVersionB.csv,"Firefox 99.0",Desktop,MacOSX,10.0.13.124
+w10102219,ez5awwtnqq,2022-04-26T03:52:52+00:00,1,3,"Read Pure F A",Output_Session1_w10102219_ez5awwtnqq.csv,Pure_Forward.csv,READVersionA.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.123
+w10081449,gas31cp7qh,2022-04-26T05:12:20+00:00,1,4,"Read Pure F B",Output_Session1_w10081449_gas31cp7qh.csv,Pure_Forward.csv,READVersionB.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.124
+w10107113,welz8vh3h8,2022-04-26T14:47:02+00:00,1,5,"Read Pure U A",Output_Session1_w10107113_welz8vh3h8.csv,Pure_Unrelated.csv,READVersionA.csv,"Safari 14.0",Desktop,MacOSX,10.0.13.123
+w10074364,ku0mb9eckw,2022-04-26T15:58:48+00:00,1,6,"Read Pure U B",Output_Session1_w10074364_ku0mb9eckw.csv,Pure_Unrelated.csv,READVersionB.csv,"Edge 100.0",Desktop,Win10,10.0.13.123
+w10066965,8wovn7qnpm,2022-04-26T18:19:59+00:00,1,7,"Freq Mixed A",Output_Session1_w10066965_8wovn7qnpm.csv,Mixed_Stim.csv,FREQVersionA.csv,"Chrome 98.0",Desktop,MacOSX,10.0.13.123
+w10107542,js50arhd63,2022-04-26T18:20:10+00:00,1,8,"Freq Mixed B",Output_Session1_w10107542_js50arhd63.csv,Mixed_Stim.csv,FREQVersionB.csv,"Mobile Safari 15.3","Mobile Phone",iOS,10.0.13.124
+w10090726,j5885tk4rl,2022-04-26T18:21:39+00:00,1,9,"Freq Pure F A",Output_Session1_w10090726_j5885tk4rl.csv,Pure_Forward.csv,FREQVersionA.csv,"Mobile Safari 15.3","Mobile Phone",iOS,10.0.13.124
+w10005085,h8phaksrzj,2022-04-26T18:38:00+00:00,1,10,"Freq Pure F B",Output_Session1_w10005085_h8phaksrzj.csv,Pure_Forward.csv,FREQVersionB.csv,"Safari 14.1",Desktop,MacOSX,10.0.13.123
+w10099324,3dbsgyhiir,2022-04-26T21:26:11+00:00,1,11,"Freq Pure U A",Output_Session1_w10099324_3dbsgyhiir.csv,Pure_Unrelated.csv,FREQVersionA.csv,"Safari 14.1",Desktop,MacOSX,10.0.13.123
+w10042292,giwx0cao6x,2022-04-27T13:07:31+00:00,1,12,"Freq Pure U B",Output_Session1_w10042292_giwx0cao6x.csv,Pure_Unrelated.csv,FREQVersionB.csv,"Safari 15.4",Desktop,MacOSX,10.0.13.124
+W10111209,itfo66wror,2022-04-27T14:42:02+00:00,1,13,"JOL Mixed A",Output_Session1_W10111209_itfo66wror.csv,Mixed_Stim.csv,JOLVersionA.csv,"Chrome 99.0",Desktop,MacOSX,10.0.13.124
+w10103573,dbz7fhtspg,2022-04-27T14:59:09+00:00,1,14,"JOL Mixed B",Output_Session1_w10103573_dbz7fhtspg.csv,Mixed_Stim.csv,JOLVersionB.csv,"Safari 15.3",Desktop,MacOSX,10.0.13.124
+w10116707,8dkb1vywt9,2022-04-27T18:07:34+00:00,1,15,"JOL Pure F A",Output_Session1_w10116707_8dkb1vywt9.csv,Pure_Forward.csv,JOLVersionA.csv,"Safari 12.1",Desktop,MacOSX,10.0.13.124
+w10078758,vqsdjl8i3j,2022-04-27T23:07:17+00:00,1,16,"JOL Pure F B",Output_Session1_w10078758_vqsdjl8i3j.csv,Pure_Forward.csv,JOLVersionB.csv,"Chrome 100.0",Desktop,Win10,10.0.13.124
+w10097739,2exqil0iif,2022-04-28T00:17:02+00:00,1,17,"JOL Pure U A",Output_Session1_w10097739_2exqil0iif.csv,Pure_Unrelated.csv,JOLVersionA.csv,"Mobile Safari 15.4","Mobile Phone",iOS,10.0.13.124
+w10097739_drh,lu6iotbkzy,2022-04-28T00:17:18+00:00,1,18,"JOL Pure U B",Output_Session1_w10097739_drh_lu6iotbkzy.csv,Pure_Unrelated.csv,JOLVersionB.csv,"Mobile Safari 15.4","Mobile Phone",iOS,10.0.13.124
+10137584,haak8k3s2u,2022-04-28T17:09:02+00:00,1,1,"Read Mixed A",Output_Session1_10137584_haak8k3s2u.csv,Mixed_Stim.csv,READVersionA.csv,"Chrome 100.0",Desktop,Win10,10.0.13.123
+W10079878_LFB,9d7gndmxgv,2022-04-28T19:29:51+00:00,1,2,"Read Mixed B",Output_Session1_W10079878_LFB_9d7gndmxgv.csv,Mixed_Stim.csv,READVersionB.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.124
+w10063195,qbtes1qpau,2022-04-28T19:39:59+00:00,1,3,"Read Pure F A",Output_Session1_w10063195_qbtes1qpau.csv,Pure_Forward.csv,READVersionA.csv,"Chrome 100.0",Desktop,Win10,10.0.13.124
+w10058006,pd7dldmzih,2022-04-28T19:40:29+00:00,1,4,"Read Pure F B",Output_Session1_w10058006_pd7dldmzih.csv,Pure_Forward.csv,READVersionB.csv,"Safari 15.2",Desktop,MacOSX,10.0.13.124
+W10104941,oh032wj7vc,2022-04-28T19:57:41+00:00,1,5,"Read Pure U A",Output_Session1_W10104941_oh032wj7vc.csv,Pure_Unrelated.csv,READVersionA.csv,DefaultProperties,unknown,unknown,10.0.13.123
+w10063195,eupcrggcuc,2022-04-29T00:34:06+00:00,1,6,"Read Pure U B",Output_Session1_w10063195_eupcrggcuc.csv,Pure_Unrelated.csv,READVersionB.csv,"Safari 15.1",Desktop,MacOSX,10.0.13.124
+0010113393,sol4v4kdz6,2022-04-29T13:57:45+00:00,1,7,"Freq Mixed A",Output_Session1_0010113393_sol4v4kdz6.csv,Mixed_Stim.csv,FREQVersionA.csv,"Chrome 100.0 for Android","Mobile Phone",Android,10.0.13.123
+w10095057,t8ls0b9mg1,2022-04-30T03:01:05+00:00,1,8,"Freq Mixed B",Output_Session1_w10095057_t8ls0b9mg1.csv,Mixed_Stim.csv,FREQVersionB.csv,"Safari 15.3",Desktop,MacOSX,10.0.13.123
+w10095057,tl0qkn27to,2022-04-30T22:08:46+00:00,1,9,"Freq Pure F A",Output_Session1_w10095057_tl0qkn27to.csv,Pure_Forward.csv,FREQVersionA.csv,"Safari 15.3",Desktop,MacOSX,10.0.13.124
+w10137584,xmksrxgx88,2022-05-01T15:29:26+00:00,1,10,"Freq Pure F B",Output_Session1_w10137584_xmksrxgx88.csv,Pure_Forward.csv,FREQVersionB.csv,"Mobile Safari 15.4","Mobile Phone",iOS,10.0.13.123
+w10137584,9g8fwk6ydj,2022-05-01T16:16:09+00:00,1,11,"Freq Pure U A",Output_Session1_w10137584_9g8fwk6ydj.csv,Pure_Unrelated.csv,FREQVersionA.csv,"Mobile Safari 15.4","Mobile Phone",iOS,10.0.13.124
+W10032501_ALW,ykrxp2i94y,2022-05-01T17:27:52+00:00,1,12,"Freq Pure U B",Output_Session1_W10032501_ALW_ykrxp2i94y.csv,Pure_Unrelated.csv,FREQVersionB.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.124
+w10080760,d2yo2v2db7,2022-05-02T16:20:03+00:00,1,13,"JOL Mixed A",Output_Session1_w10080760_d2yo2v2db7.csv,Mixed_Stim.csv,JOLVersionA.csv,"Chrome 99.0",Desktop,MacOSX,10.0.13.124
+10107227,k5xmcb2tks,2022-05-02T21:50:39+00:00,1,14,"JOL Mixed B",Output_Session1_10107227_k5xmcb2tks.csv,Mixed_Stim.csv,JOLVersionB.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.123
+w765129,bcfd7hvobb,2022-05-02T22:25:51+00:00,1,15,"JOL Pure F A",Output_Session1_w765129_bcfd7hvobb.csv,Pure_Forward.csv,JOLVersionA.csv,"Mobile Safari 15.4","Mobile Phone",iOS,10.0.13.124
+w838736,8159k8d2gm,2022-05-03T01:52:21+00:00,1,16,"JOL Pure F B",Output_Session1_w838736_8159k8d2gm.csv,Pure_Forward.csv,JOLVersionB.csv,"Chrome 99.0",Desktop,Win10,10.0.13.123
+w10086160_LKM,thbc226a44,2022-05-03T13:33:10+00:00,1,17,"JOL Pure U A",Output_Session1_w10086160_LKM_thbc226a44.csv,Pure_Unrelated.csv,JOLVersionA.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.124
+w990768,rcmqt8dpcf,2022-05-03T14:26:00+00:00,1,18,"JOL Pure U B",Output_Session1_w990768_rcmqt8dpcf.csv,Pure_Unrelated.csv,JOLVersionB.csv,"Mobile Safari 15.4","Mobile Phone",iOS,10.0.13.124
+autumn.burkhalter@usm.edu,ks8acsij8h,2022-05-03T18:31:33+00:00,1,1,"Read Mixed A",Output_Session1_autumn.burkhalter@usm.edu_ks8acsij8h.csv,Mixed_Stim.csv,READVersionA.csv,"Safari 14.1",Desktop,MacOSX,10.0.13.124
+w10119579@usm.edu,khf51gfb9f,2022-05-03T18:33:38+00:00,1,2,"Read Mixed B",Output_Session1_w10119579@usm.edu_khf51gfb9f.csv,Mixed_Stim.csv,READVersionB.csv,"Chrome 100.0",Desktop,Win10,10.0.13.123
+w10085119,r9ohlqh0jn,2022-05-03T18:35:19+00:00,1,3,"Read Pure F A",Output_Session1_w10085119_r9ohlqh0jn.csv,Pure_Forward.csv,READVersionA.csv,"Chrome 99.0",Desktop,MacOSX,10.0.13.124
+W10086692_KAW,ulf1mjd1mo,2022-05-03T19:37:13+00:00,1,4,"Read Pure F B",Output_Session1_W10086692_KAW_ulf1mjd1mo.csv,Pure_Forward.csv,READVersionB.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.123
+w10107067,c5rue8tcx3,2022-05-03T19:41:26+00:00,1,5,"Read Pure U A",Output_Session1_w10107067_c5rue8tcx3.csv,Pure_Unrelated.csv,READVersionA.csv,"Safari 14.0",Desktop,MacOSX,10.0.13.124
+w10067850,tpckmoqpfa,2022-05-03T21:22:34+00:00,1,6,"Read Pure U B",Output_Session1_w10067850_tpckmoqpfa.csv,Pure_Unrelated.csv,READVersionB.csv,"Chrome 100.0",Desktop,Win10,10.0.13.124
+10109732,adsjjyapx3,2022-05-03T22:33:36+00:00,1,7,"Freq Mixed A",Output_Session1_10109732_adsjjyapx3.csv,Mixed_Stim.csv,FREQVersionA.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.124
+w10103997,mpijkma11r,2022-05-03T23:50:47+00:00,1,8,"Freq Mixed B",Output_Session1_w10103997_mpijkma11r.csv,Mixed_Stim.csv,FREQVersionB.csv,"Firefox 99.0",Desktop,MacOSX,10.0.13.124
+w10074131_DC,0h380mkfuq,2022-05-04T00:20:55+00:00,1,9,"Freq Pure F A",Output_Session1_w10074131_DC_0h380mkfuq.csv,Pure_Forward.csv,FREQVersionA.csv,DefaultProperties,unknown,unknown,10.0.13.124
+w975827,pqkjlmcte2,2022-05-04T01:12:02+00:00,1,10,"Freq Pure F B",Output_Session1_w975827_pqkjlmcte2.csv,Pure_Forward.csv,FREQVersionB.csv,"Safari 15.0",Desktop,MacOSX,10.0.13.124
+w936013,o9g457rm3o,2022-05-04T03:05:14+00:00,1,11,"Freq Pure U A",Output_Session1_w936013_o9g457rm3o.csv,Pure_Unrelated.csv,FREQVersionA.csv,"Safari 15.4",Desktop,MacOSX,10.0.13.123
+w10129261_jf,kh0k303um2,2022-05-04T13:54:37+00:00,1,12,"Freq Pure U B",Output_Session1_w10129261_jf_kh0k303um2.csv,Pure_Unrelated.csv,FREQVersionB.csv,"Chrome 100.0",Desktop,Win10,10.0.13.124
+Lanyia.rudd@usm.edu,lyh6irfnb5,2022-05-04T15:47:07+00:00,1,13,"JOL Mixed A",Output_Session1_Lanyia.rudd@usm.edu_lyh6irfnb5.csv,Mixed_Stim.csv,JOLVersionA.csv,"Mobile Safari 15.4","Mobile Phone",iOS,10.0.13.123
+w10001326,sekzw4c64x,2022-05-04T16:09:22+00:00,1,14,"JOL Mixed B",Output_Session1_w10001326_sekzw4c64x.csv,Mixed_Stim.csv,JOLVersionB.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.123
+W10110118,c5o6wsemay,2022-05-04T17:54:55+00:00,1,15,"JOL Pure F A",Output_Session1_W10110118_c5o6wsemay.csv,Pure_Forward.csv,JOLVersionA.csv,"Safari 15.4",Desktop,MacOSX,10.0.13.124
+W10108552,5fkptgvdbw,2022-05-04T18:12:04+00:00,1,16,"JOL Pure F B",Output_Session1_W10108552_5fkptgvdbw.csv,Pure_Forward.csv,JOLVersionB.csv,"Edge 100.0",Desktop,Win10,10.0.13.124
+w10127852,3vzqzqvnt9,2022-05-04T18:59:01+00:00,1,17,"JOL Pure U A",Output_Session1_w10127852_3vzqzqvnt9.csv,Pure_Unrelated.csv,JOLVersionA.csv,"Chrome 100.0",Desktop,Win10,10.0.13.123
+w10114267,hvc58pltre,2022-05-04T19:50:59+00:00,1,18,"JOL Pure U B",Output_Session1_w10114267_hvc58pltre.csv,Pure_Unrelated.csv,JOLVersionB.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.124
+10089008,qt7puxpdy6,2022-05-04T20:51:19+00:00,1,1,"Read Mixed A",Output_Session1_10089008_qt7puxpdy6.csv,Mixed_Stim.csv,READVersionA.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.123
+w10117848,dk2o755dky,2022-05-04T21:43:55+00:00,1,2,"Read Mixed B",Output_Session1_w10117848_dk2o755dky.csv,Mixed_Stim.csv,READVersionB.csv,"Chrome 101.0",Desktop,MacOSX,10.0.13.124
+W10046021_EAW,20ru0pb87s,2022-05-04T22:25:03+00:00,1,3,"Read Pure F A",Output_Session1_W10046021_EAW_20ru0pb87s.csv,Pure_Forward.csv,READVersionA.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.124
+w10103018_ejm,pansa42sde,2022-05-04T22:40:07+00:00,1,4,"Read Pure F B",Output_Session1_w10103018_ejm_pansa42sde.csv,Pure_Forward.csv,READVersionB.csv,"Chrome 101.0",Desktop,Win10,10.0.13.123
+w10098701_hnj,90uhhi7fyt,2022-05-04T23:15:30+00:00,1,5,"Read Pure U A",Output_Session1_w10098701_hnj_90uhhi7fyt.csv,Pure_Unrelated.csv,READVersionA.csv,"Chrome 99.0",Desktop,MacOSX,10.0.13.123
+W10119579_MAO,mbwoxk97uc,2022-05-05T00:21:09+00:00,1,6,"Read Pure U B",Output_Session1_W10119579_MAO_mbwoxk97uc.csv,Pure_Unrelated.csv,READVersionB.csv,"Chrome 100.0",Desktop,Win10,10.0.13.124
+w10075049,05cqufbi6t,2022-05-05T01:33:39+00:00,1,7,"Freq Mixed A",Output_Session1_w10075049_05cqufbi6t.csv,Mixed_Stim.csv,FREQVersionA.csv,"Safari 14.1",Desktop,MacOSX,10.0.13.124
+w10059276,fec6a9q3s3,2022-05-05T02:06:10+00:00,1,8,"Freq Mixed B",Output_Session1_w10059276_fec6a9q3s3.csv,Mixed_Stim.csv,FREQVersionB.csv,"Chrome 97.0",Desktop,MacOSX,10.0.13.124
+w10108038_MPC,ihcq6wok30,2022-05-05T03:37:59+00:00,1,9,"Freq Pure F A",Output_Session1_w10108038_MPC_ihcq6wok30.csv,Pure_Forward.csv,FREQVersionA.csv,"Chrome 99.0",Desktop,Win10,10.0.13.123
+W10042758_BLH,m401ateg19,2022-05-05T03:56:35+00:00,1,10,"Freq Pure F B",Output_Session1_W10042758_BLH_m401ateg19.csv,Pure_Forward.csv,FREQVersionB.csv,"Chrome 101.0",Desktop,Win10,10.0.13.124
+10099717,oqjak3urrf,2022-05-05T04:17:10+00:00,1,11,"Freq Pure U A",Output_Session1_10099717_oqjak3urrf.csv,Pure_Unrelated.csv,FREQVersionA.csv,DefaultProperties,unknown,unknown,10.0.13.124
+w10036694_mbf,l35amzmsru,2022-05-05T04:36:53+00:00,1,12,"Freq Pure U B",Output_Session1_w10036694_mbf_l35amzmsru.csv,Pure_Unrelated.csv,FREQVersionB.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.124
+w982536,xmfddbzzm6,2022-05-05T04:44:46+00:00,1,13,"JOL Mixed A",Output_Session1_w982536_xmfddbzzm6.csv,Mixed_Stim.csv,JOLVersionA.csv,"Safari 13.1",Desktop,MacOSX,10.0.13.123
+w10002889_TMS,g7i9h7rqm5,2022-05-05T06:51:53+00:00,1,14,"JOL Mixed B",Output_Session1_w10002889_TMS_g7i9h7rqm5.csv,Mixed_Stim.csv,JOLVersionB.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.124
+w10081310,dqefgxpmfj,2022-05-05T14:56:56+00:00,1,15,"JOL Pure F A",Output_Session1_w10081310_dqefgxpmfj.csv,Pure_Forward.csv,JOLVersionA.csv,"Chrome 100.0",Desktop,MacOSX,10.0.13.124
+w10111091,gto5ziw7vk,2022-05-05T15:51:04+00:00,1,16,"JOL Pure F B",Output_Session1_w10111091_gto5ziw7vk.csv,Pure_Forward.csv,JOLVersionB.csv,"Chrome 100.0",Desktop,Win10,10.0.13.123
+w10110034,wopqmlgvl4,2022-05-05T16:05:49+00:00,1,17,"JOL Pure U A",Output_Session1_w10110034_wopqmlgvl4.csv,Pure_Unrelated.csv,JOLVersionA.csv,"Mobile Safari 15.4","Mobile Phone",iOS,10.0.13.124
+w10103041,dtw3liewhb,2022-05-05T17:36:58+00:00,1,18,"JOL Pure U B",Output_Session1_w10103041_dtw3liewhb.csv,Pure_Unrelated.csv,JOLVersionB.csv,"Safari 15.4",Desktop,MacOSX,10.0.13.124
+W984284,aynlrj260s,2022-05-05T18:29:50+00:00,1,1,"Read Mixed A",Output_Session1_W984284_aynlrj260s.csv,Mixed_Stim.csv,READVersionA.csv,"Chrome 100.0",Desktop,Win10,10.0.13.124
+10113431,r4u892qs68,2022-05-05T18:54:01+00:00,1,2,"Read Mixed B",Output_Session1_10113431_r4u892qs68.csv,Mixed_Stim.csv,READVersionB.csv,DefaultProperties,unknown,unknown,10.0.13.123
+w10056664_JL,xyg8eticf3,2022-05-05T19:36:59+00:00,1,3,"Read Pure F A",Output_Session1_w10056664_JL_xyg8eticf3.csv,Pure_Forward.csv,READVersionA.csv,DefaultProperties,unknown,unknown,10.0.13.123
+w10021689,vlb1r6n0yh,2022-05-05T19:56:06+00:00,1,4,"Read Pure F B",Output_Session1_w10021689_vlb1r6n0yh.csv,Pure_Forward.csv,READVersionB.csv,"Safari 15.4",Desktop,MacOSX,10.0.13.124
+w10013001_EMA,y4elbdytjn,2022-05-31T15:55:27+00:00,1,5,"Read Pure U A",Output_Session1_w10013001_EMA_y4elbdytjn.csv,Pure_Unrelated.csv,READVersionA.csv,"Safari 13.0",Desktop,MacOSX,10.0.13.123
+w10014222,vnqwnohl2y,2022-06-01T02:00:24+00:00,1,6,"Read Pure U B",Output_Session1_w10014222_vnqwnohl2y.csv,Pure_Unrelated.csv,READVersionB.csv,"Chrome 100.0",Desktop,Win10,10.0.13.124
+10043107,6ztknp92jo,2022-06-02T00:48:58+00:00,1,7,"Freq Mixed A",Output_Session1_10043107_6ztknp92jo.csv,Mixed_Stim.csv,FREQVersionA.csv,"Chrome 101.0 for iOS",Tablet,iOS,10.0.13.123
+w10084691,g9rd43acf9,2022-06-05T18:27:41+00:00,1,8,"Freq Mixed B",Output_Session1_w10084691_g9rd43acf9.csv,Mixed_Stim.csv,FREQVersionB.csv,"Safari 15.4",Desktop,MacOSX,10.0.13.123
+w10113657_enw,0zsoc848wo,2022-06-08T21:47:31+00:00,1,9,"Freq Pure F A",Output_Session1_w10113657_enw_0zsoc848wo.csv,Pure_Forward.csv,FREQVersionA.csv,"Chrome 102.0",Desktop,Win10,10.0.13.123
+w10080946,c3kjppxsqy,2022-06-09T19:59:44+00:00,1,10,"Freq Pure F B",Output_Session1_w10080946_c3kjppxsqy.csv,Pure_Forward.csv,FREQVersionB.csv,"Safari Generic",Desktop,MacOSX,10.0.13.123
+w10080946_skb,qn9rzmw2ml,2022-06-09T20:00:06+00:00,1,11,"Freq Pure U A",Output_Session1_w10080946_skb_qn9rzmw2ml.csv,Pure_Unrelated.csv,FREQVersionA.csv,"Safari Generic",Desktop,MacOSX,10.0.13.123
+w10002041,8ze3jiy4gp,2022-06-10T19:44:49+00:00,1,12,"Freq Pure U B",Output_Session1_w10002041_8ze3jiy4gp.csv,Pure_Unrelated.csv,FREQVersionB.csv,"Chrome 101.0",Desktop,MacOSX,10.0.13.123
+w10110290_DL,28ruxct6lv,2022-06-13T02:17:08+00:00,1,13,"JOL Mixed A",Output_Session1_w10110290_DL_28ruxct6lv.csv,Mixed_Stim.csv,JOLVersionA.csv,DefaultProperties,unknown,unknown,10.0.13.124

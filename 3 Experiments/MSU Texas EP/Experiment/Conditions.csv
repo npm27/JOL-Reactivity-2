@@ -1,0 +1,19 @@
+Number,Stimuli,Procedure,Condition Description,Condition Notes
+1,Mixed_Stim.csv,READVersionA.csv,Read Mixed A,Read Mixed A
+2,Mixed_Stim.csv,READVersionB.csv,Read Mixed B,Read Mixed B
+3,Pure_Forward.csv,READVersionA.csv,Read Pure F A,Read Pure F A
+4,Pure_Forward.csv,READVersionB.csv,Read Pure F B,Read Pure F B
+5,Pure_Unrelated.csv,READVersionA.csv,Read Pure U A,Read Pure U A
+6,Pure_Unrelated.csv,READVersionB.csv,Read Pure U B,Read Pure U B
+7,Mixed_Stim.csv,FREQVersionA.csv,Freq Mixed A,Freq Mixed A
+8,Mixed_Stim.csv,FREQVersionB.csv,Freq Mixed B,Freq Mixed B
+9,Pure_Forward.csv,FREQVersionA.csv,Freq Pure F A,Freq Pure F A
+10,Pure_Forward.csv,FREQVersionB.csv,Freq Pure F B,Freq Pure F B
+11,Pure_Unrelated.csv,FREQVersionA.csv,Freq Pure U A,Freq Pure U A
+12,Pure_Unrelated.csv,FREQVersionB.csv,Freq Pure U B,Freq Pure U B
+13,Mixed_Stim.csv,JOLVersionA.csv,JOL Mixed A,JOL Mixed A
+14,Mixed_Stim.csv,JOLVersionB.csv,JOL Mixed B,JOL Mixed B
+15,Pure_Forward.csv,JOLVersionA.csv,JOL Pure F A,JOL Pure F A
+16,Pure_Forward.csv,JOLVersionB.csv,JOL Pure F B,JOL Pure F B
+17,Pure_Unrelated.csv,JOLVersionA.csv,JOL Pure U A,JOL Pure U A
+18,Pure_Unrelated.csv,JOLVersionB.csv,JOL Pure U B,JOL Pure U B
